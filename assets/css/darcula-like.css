@@ -1,0 +1,42 @@
+body {
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:16px;
+	padding:0;
+	color:#8e9292;
+	background-color:#2b2b2b;
+}
+
+a:link {
+	color:#7ca8c6;
+}
+
+a:visited {
+	color:#9676ac;
+}
+
+.header {
+	padding:3px;
+	border:solid;
+	text-align:center;
+}
+
+.header h1 {
+	margin:0px;
+}
+
+.header ul, footer ul {
+	list-style:none;
+	margin:0px;
+	padding:0;
+}
+
+.header ul li, footer ul li {
+	display:inline;
+}
+
+footer {
+	text-align:center;
+	font-weight:bold;
+}

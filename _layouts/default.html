@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/assets/css/darcula-like.css">
+	</head>
+	<body>
+		<a href="top"></a>
+		<div class="header">
+			<H1>Jason R Brown</H1>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/personal">Personal</a></li>
+					<li><a href="/blog">Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+		{{ content }}
+		<hr>
+		<footer>
+			<a href="#top">Back to top</a>
+			<ul>
+				<li>Author: {{ page.author }}</li>
+				<li>|</li>
+				<li>Revised {{ page.date }}</li>
+			</ul>
+		</footer>
+	</body>
+</html>
