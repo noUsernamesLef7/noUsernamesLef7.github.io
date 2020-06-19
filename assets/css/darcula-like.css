@@ -40,3 +40,15 @@ footer {
 	text-align:center;
 	font-weight:bold;
 }
+
+div {
+	padding: 3px;
+}
+
+strong {
+	color: #b1c73d;
+}
+
+em {
+	color: #c57825;
+}
