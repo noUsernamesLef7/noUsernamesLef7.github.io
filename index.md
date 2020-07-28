@@ -18,6 +18,9 @@ I'm a Salt Lake City based EDI Analyst and Computer Science student. I love lear
 ### [Conservice](https://www.conservice.com)
 > **EDE/EDI Setup Processor** -- *2018-2019* As an electronic data interchange specialist I gathered information about client systems and software then determined how to integrate them with our process. Typically this involved setting up automated queries of a common industry standard softwares REST API's though I also set up integrations using other protocols such as SFTP and FTPS.
 
+## Certifications
+* [Microsoft Technology Associate - Database Administration Fundamentals](https://www.youracclaim.com/badges/60b6e279-7a98-4b06-8b06-243a697b560f/public_url)
+
 ## Skills
 > Check out my [GitHub!](https://github.com/noUsernamesLef7)
 
