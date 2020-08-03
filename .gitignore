@@ -1,3 +1,4 @@
 Gemfile*
 _site/
 .jekyll-cache/
+*.swp
