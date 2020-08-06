@@ -32,7 +32,7 @@ _Author: Jason Brown_
 2. Remove stems, wash fruit, and smash into fermentation bucket. Don't worry about removing stones.
 3. Boil 1 gallon of water and dissolve in 2 lbs sugar. Pour mixture into bucket over the fruit pulp.
 4. Crush 2 campden tablets and mix them into the bucket.
-5. Allow mixture to cool to room temperature; a few hours.
+5. Cover loosely, such as with a tea towel and wait until next morning.
 6. Add pectic enzyme and stir.
 7. 1 hour after adding enzyme, mix in yeast nutrient. Sprinkle yeast packet over the top of the mixture and allow to hydrate for 10 minutes. Mix in yeast.
 8. Close the lid on the bucket and insert airlock.
