@@ -46,6 +46,11 @@ div {
 	padding: 3px;
 }
 
+.highlighter-rouge {
+	border-radius:2px;
+	background-color:#2b2b2b;
+}
+
 a:link {
 	color:#7ca8c6;
 }
