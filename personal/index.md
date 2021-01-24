@@ -9,3 +9,5 @@ This section will contain a collection of miscellaneous items. I have a wide var
 ## [Recipes](recipes)
 A collection of my favorite recipes.
 
+## [Movies](movies)
+Lists of my favorite (and most disliked) movies. Some of them also link to a page explaining my reasons for liking or disliking them.
