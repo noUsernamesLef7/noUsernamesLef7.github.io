@@ -34,6 +34,7 @@ Here I'll list my favorite movies separated by genre in no particular order, as 
 * A Quiet Place
 * Jaws
 * The Shining
+* Psycho
 
 ### Comedy
 * Young Frankenstein
