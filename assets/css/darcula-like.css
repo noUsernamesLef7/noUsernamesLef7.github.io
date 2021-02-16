@@ -56,6 +56,11 @@ div {
 	padding: 3px;
 }
 
+img {
+	max-width:100%;
+	max-height:100%;
+}
+
 .highlighter-rouge {
 	border-radius:2px;
 	background-color:#2b2b2b;
