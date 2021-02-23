@@ -45,10 +45,10 @@ Here I'll list my favorite movies separated by genre in no particular order, as 
 * Tora! Tora! Tora!
 
 ## Least Favorites
-* The Final Countdown
+* [The Final Countdown](/theFinalCountdown)
 
 ## Movies I didn't get the first time
 * Monty Python and the Holy Grail
 * Stalker
-* Pulp Fiction
+* [Pulp Fiction](/pulpFiction)
 * Primer
