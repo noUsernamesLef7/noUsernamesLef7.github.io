@@ -11,3 +11,6 @@ A collection of my favorite recipes.
 
 ## [Movies](movies)
 Lists of my favorite (and most disliked) movies. Some of them also link to a page explaining my reasons for liking or disliking them.
+
+## [Books](books)
+The list of books I've read this year and a few groupings of my favorite books on specific topics.

@@ -1,7 +1,7 @@
 ---
 title: The Final Countdown
 year: 1980
-layout: default
+layout: post
 tags:
   - least favorite
 date: 2021-02-22

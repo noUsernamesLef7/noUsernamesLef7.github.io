@@ -1,7 +1,7 @@
 ---
 title: Pulp Fiction
 year: 1994
-layout: default
+layout: post
 tags:
   - confused
 date: 2021-02-22
