@@ -5,4 +5,7 @@ author: Jason Brown
 collections:
   recipes:
     output: true
-
+  books:
+    output: true
+  movies:
+    output: true

@@ -1,9 +1,11 @@
 ---
+layout: movie
 title: The Final Countdown
-year: 1980
-layout: post
+director: Don Taylor
+release-year: 1980
+author: Jason Brown
 tags:
-  - least favorite
+  - Least Favorites
 date: 2021-02-22
 ---
 A reactor accident onboard the USS Nimitz results in the entire ship and crew being transported back in time to just hours before the Japanese carrier fleet launches their attack on Pearl Harbor. The premise is, well, I mostly came to watch the Tomcats. Sadly the movie was so bad that even the inclusion of all the footage of an operational nuclear carrier and it's fighter squadrons couldn't save it.
