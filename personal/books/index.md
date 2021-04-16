@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2021-02-22
+date: 2021-04-12
 author: Jason Brown
 title: Books
 ---
@@ -21,3 +21,11 @@ I like many others have recently come to the realization that I no longer read b
 	* A bit meandering, a bit hopeless. The author has few practical suggestions for avoiding the problems he highlights.
 * *Fair Play* by Eve Rodsky
 	* A proposed system for dividing household labor. I especially like the idea of each person being solely responsible for what's on their plate from conception, through planning, and on to execution. No need to remind each other to get started on something.
+* *The Iliad* by Homer; Translated by Richmond Lattimore
+	* Surprisingly engaging. I went in expecting a slog and was pleasantly surprised.
+* *Architects of Air Power* by David Nevin
+	* An overview of the early air combat pioneers including Duhet, Mitchell, and Goring. Great pictures.
+* *Death's Knight* by Matthew Summers & Jena Rey
+	* The perfect level of fantasy for me. Anyone who has played D&D will find the world familar enough but with it's own unique takes.
+* *The Odyssey* by Homer; Translated by Richmond Lattimore
+	* Also thoroughly enjoyed. Much more interesting than the abridged version I read in Jr. High School.
