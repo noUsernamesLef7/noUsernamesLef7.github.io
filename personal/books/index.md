@@ -29,3 +29,5 @@ I like many others have recently come to the realization that I no longer read b
 	* The perfect level of fantasy for me. Anyone who has played D&D will find the world familar enough but with it's own unique takes.
 * *The Odyssey* by Homer; Translated by Richmond Lattimore
 	* Also thoroughly enjoyed. Much more interesting than the abridged version I read in Jr. High School.
+* *So Good They Can't Ignore You* by Cal Newport
+	* Insightful and rather humbling. Several of the big ideas are immediately applicable to my life.
