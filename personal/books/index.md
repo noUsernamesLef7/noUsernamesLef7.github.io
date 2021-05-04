@@ -31,3 +31,5 @@ I like many others have recently come to the realization that I no longer read b
 	* Also thoroughly enjoyed. Much more interesting than the abridged version I read in Jr. High School.
 * *So Good They Can't Ignore You* by Cal Newport
 	* Insightful and rather humbling. Several of the big ideas are immediately applicable to my life.
+* *The Mote In God's Eye* by Larry Niven and Jerry Pournelle
+	* Good story, very alien aliens, my favorite part was the first half. Not my favorite storytelling style though. I found it hard to tell how much time was passing especially during the action scenes and the lack of scene descriptions was a bit disconcerting.
