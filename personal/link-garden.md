@@ -8,6 +8,7 @@ title: Link Garden
 
 ## National Defense
 [Adversary Drones Are Spying On The U.S. And The Pentagon Acts Like They're UFOs](https://www.thedrive.com/the-war-zone/40054/adversary-drones-are-spying-on-the-u-s-and-the-pentagon-acts-like-theyre-ufos) - [Archive](https://web.archive.org/web/20210420022108/https://www.thedrive.com/the-war-zone/40054/adversary-drones-are-spying-on-the-u-s-and-the-pentagon-acts-like-theyre-ufos)
+[Hacked Drones and Busted Logistics are the Cyber Future Of Warfare](https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/) - [Archive](https://web.archive.org/web/20210609121859/https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/)
 
 ## Copyright
 [Alice in Wonderland and the theft of the public domain](https://drewdevault.com/2020/08/24/Alice-in-Wonderland.html) - [Archive](https://web.archive.org/web/20210321155021/https://drewdevault.com/2020/08/24/Alice-in-Wonderland.html)
