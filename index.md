@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2020-06-18
+date: 2021-06-29
 author: Jason Brown
 title: Jason Brown's Site
 ---
@@ -8,10 +8,13 @@ title: Jason Brown's Site
 Welcome to my home on the web. **This page is dedicated to my professional work**. If you are looking for my personal pages, head over [here](/personal).
 
 ## About Me
-I'm a Salt Lake City based EDI Analyst and Cybersecurity student. I love learning about and working with computers. I'm fascinated by all things cybersecurity. I can be contacted by [email](mailto:jason.brown97@protonmail.com) or through [LinkedIn](https://www.linkedin.com/in/jason-brown-a1a964138/).
+I'm a Salt Lake City based IT professional and Cybersecurity student. I love learning about and working with computers. I'm fascinated by all things cybersecurity. I can be contacted by [email](mailto:jason.brown97@protonmail.com) or through [LinkedIn](https://www.linkedin.com/in/jason-brown-a1a964138/).
 
 
 ## Recent Experience
+### [Castle & Cooke Mortgage](https://castlecookemortgage.com)
+> **IT Support Representative** -- *2021-Present* My current responsibilities include resolving user tickets, installing hardware, imaging devices, managing physical access control systems, Active Directory user administration, Exchange server administration, software license provisioning, and VOIP system administration.
+
 ### [PlanSource](https://plansource.com)
 > **EDI Analyst** -- *2019-2020* At PlanSource I built and managed healthcare insurance eligibility file feeds sent to leading insurance carriers. Most integrations used the industry standard ANSI 834A 5010 format and were transmitted over SFTP. Sometimes PGP encryption was also used. My work orders were tracked and managed in Salesforce.
 
@@ -31,10 +34,8 @@ I'm a Salt Lake City based EDI Analyst and Cybersecurity student. I love learnin
 
 ### Languages
 * Java
-* Python3
+* Python
 * SQL
-* Bash
-* PowerShell
 * HTML
 * CSS
 
