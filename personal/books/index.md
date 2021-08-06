@@ -35,3 +35,11 @@ I like many others have recently come to the realization that I no longer read b
 	* Good story, very alien aliens, my favorite part was the first half. Not my favorite storytelling style though. I found it hard to tell how much time was passing especially during the action scenes and the lack of scene descriptions was a bit disconcerting.
 * *The Price of Glory* by William H. Keith Jr.
 	* Good giant robot action. The weakest of the Gray Death Legion series but still pretty good.
+* *Civil Disobedience* by Henry David Thoreau
+	* A good addition to the thoughts and ideas collected in Walden.
+* *Tribe of Hackers Red Team* by Marcus J. Carey
+	* A bit repetitive but does give you some good insight into the types of experience and background needed to get into the field.
+* *Calvin & Hobbes: The Days Are Just Packed* by Bill Watterson
+	* I've loved Calvin & Hobbes since I was a child and have read all of them. It's a nice nostalgia trip to re-read them plus I pick up on more of the jokes now.
+* *God Is Not Great: How Religion Poisons Everything* by Christopher Hitchens
+	* Hitchens has a way of showing things outside the normal cultural lens we view the world through.
