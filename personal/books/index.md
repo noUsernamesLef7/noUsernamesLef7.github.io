@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2021-04-12
+date: 2021-08-23
 author: Jason Brown
 title: Books
 ---
@@ -41,5 +41,12 @@ I like many others have recently come to the realization that I no longer read b
 	* A bit repetitive but does give you some good insight into the types of experience and background needed to get into the field.
 * *Calvin & Hobbes: The Days Are Just Packed* by Bill Watterson
 	* I've loved Calvin & Hobbes since I was a child and have read all of them. It's a nice nostalgia trip to re-read them plus I pick up on more of the jokes now.
+* *The Persians* by Aeschylus
+	* A lot of pandering to the Greek audience, the persians referring to themselves as barbarians and bemoaning how foolish they were to face the might Greek armies. Still it was pretty decent and interesting from a historical perspective.
+* *Seven Against Thebes* by Aeschylus
+	* Decent, the closing scene with Antigone was interesting.
 * *God Is Not Great: How Religion Poisons Everything* by Christopher Hitchens
 	* Hitchens has a way of showing things outside the normal cultural lens we view the world through.
+* *What Isaiah Says To Me* by Daryl Budd
+	* While reading through the Old Testament as part of my reading list, I decided to read my grandfathers book on Isaiah. He definitely spent a lot of time studying it and it's probably a decent study guide for mormons.
+
