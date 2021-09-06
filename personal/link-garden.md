@@ -11,6 +11,7 @@ title: Link Garden
 
 ## National Defense
 [Adversary Drones Are Spying On The U.S. And The Pentagon Acts Like They're UFOs](https://www.thedrive.com/the-war-zone/40054/adversary-drones-are-spying-on-the-u-s-and-the-pentagon-acts-like-theyre-ufos) - [Archive](https://web.archive.org/web/20210420022108/https://www.thedrive.com/the-war-zone/40054/adversary-drones-are-spying-on-the-u-s-and-the-pentagon-acts-like-theyre-ufos)
+
 [Hacked Drones and Busted Logistics are the Cyber Future Of Warfare](https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/) - [Archive](https://web.archive.org/web/20210609121859/https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/)
 
 ## Copyright
@@ -18,6 +19,7 @@ title: Link Garden
 
 ## Technology
 [Bringing The Unix Philosophy To The 21st Century](https://blog.kellybrazil.com/2019/11/26/bringing-the-unix-philosophy-to-the-21st-century/) - [Archive](https://web.archive.org/web/20210830160823/https://blog.kellybrazil.com/2019/11/26/bringing-the-unix-philosophy-to-the-21st-century/)
+
 [A 25-Year-Old Bet Comes Due: Has Tech Destroyed Society?](https://www.wired.com/story/a-25-year-old-bet-comes-due-has-tech-destroyed-society/) - [Archive](https://web.archive.org/web/20210318212517/https://www.wired.com/story/a-25-year-old-bet-comes-due-has-tech-destroyed-society/)
 
 [How Much of Your Stuff Belongs to Big Tech?](https://www.newyorker.com/magazine/2021/03/15/how-much-of-your-stuff-belongs-to-big-tech) - [Archive](https://web.archive.org/web/20210404195857/https://www.newyorker.com/magazine/2021/03/15/how-much-of-your-stuff-belongs-to-big-tech)
