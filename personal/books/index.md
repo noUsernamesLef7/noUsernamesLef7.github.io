@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2021-08-23
+date: 2021-09-06
 author: Jason Brown
 title: Books
 ---
@@ -49,4 +49,5 @@ I like many others have recently come to the realization that I no longer read b
 	* Hitchens has a way of showing things outside the normal cultural lens we view the world through.
 * *What Isaiah Says To Me* by Daryl Budd
 	* While reading through the Old Testament as part of my reading list, I decided to read my grandfathers book on Isaiah. He definitely spent a lot of time studying it and it's probably a decent study guide for mormons.
-
+* *The Old Testament (New International Version)*
+	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting,the "prophecy" sections uninteresting apart from noting that many of them have passed their stated time frame.
