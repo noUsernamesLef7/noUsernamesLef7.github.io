@@ -50,10 +50,16 @@ I like many others have recently come to the realization that I no longer read b
 * *What Isaiah Says To Me* by Daryl Budd
 	* While reading through the Old Testament as part of my reading list, I decided to read my grandfathers book on Isaiah. He definitely spent a lot of time studying it and it's probably a decent study guide for mormons.
 * *The Old Testament (New International Version)*
-	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting, the "prophecy" sections uninteresting apart from noting that many of them have passed their stated time frame.
+	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting,the "prophecy" sections uninteresting apart from noting that many of them have passed their stated time frame.
 * *Agamemnon* by Aeschylus
 	* Assuming you don't already know the story, this one comes with not one but two dramatic twists. My favorite tragedy so far in my exploration.
 * *PowerShell for Sysadmins: Workflow Automation Made Easy* by Adam Bertram
 	* A pretty decent introduction to PowerShell. I've been using it more and more at work since I started this book and I'm really enjoying it.
 * *How To Take Smart Notes* by Sonke Ahrens
 	* I've read several blog posts and tutorials on slip box notetaking over the last year but for some reason it failed to really sink in until I read this book. It feels much more intuitive now.
+* *Designing Virtual Worlds* by Richard Bartle
+	* I found the philosophical bits uninteresting but the author has spent a lot of time considering how to build virtual worlds and what questions to ask.
+* *The Libation Bearers* by Aeschylus
+	* Very dramatic, very enjoyable.
+* *The Eumenides* by Aeschylus
+	* Also quite gripping, more philosophy and morality than the previous play of the trilogy.
