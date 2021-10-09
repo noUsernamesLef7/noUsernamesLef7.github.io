@@ -42,7 +42,7 @@ I like many others have recently come to the realization that I no longer read b
 * *Calvin & Hobbes: The Days Are Just Packed* by Bill Watterson
 	* I've loved Calvin & Hobbes since I was a child and have read all of them. It's a nice nostalgia trip to re-read them plus I pick up on more of the jokes now.
 * *The Persians* by Aeschylus
-	* A lot of pandering to the Greek audience, the persians referring to themselves as barbarians and bemoaning how foolish they were to face the might Greek armies. Still it was pretty decent and interesting from a historical perspective.
+	* A lot of pandering to the Greek audience, the persians referring to themselves as barbarians and bemoaning how foolish they were to face the mighty Greek armies. Still it was pretty decent and interesting from a historical perspective.
 * *Seven Against Thebes* by Aeschylus
 	* Decent, the closing scene with Antigone was interesting.
 * *God Is Not Great: How Religion Poisons Everything* by Christopher Hitchens
@@ -53,3 +53,7 @@ I like many others have recently come to the realization that I no longer read b
 	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting,the "prophecy" sections uninteresting apart from noting that many of them have passed their stated time frame.
 * *Agamemnon* by Aeschylus
 	* Assuming you don't already know the story, this one comes with not one but two dramatic twists. My favorite tragedy so far in my exploration.
+* *PowerShell for Sysadmins: Workflow Automation Made Easy* by Adam Bertram
+	* A pretty decent introduction to PowerShell. I've been using it more and more at work since I started this book and I'm really enjoying it.
+* *How To Take Smart Notes* by Sonke Ahrens
+	* I've read several blog posts and tutorials on slip box notetaking over the last year but for some reason it failed to really sink in until I read this book. It feels much more intuitive now.
