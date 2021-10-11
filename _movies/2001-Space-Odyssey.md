@@ -1,6 +1,6 @@
 ---
 layout: movie
-title: 2001: A Space Odyssey
+title: 2001 A Space Odyssey
 director: Stanley Kubrick
 release-year: 1968
 author: Jason Brown

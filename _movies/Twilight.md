@@ -1,11 +1,11 @@
 ---
 layout: movie
 title: Twilight
-director:
-release-year:
+director: Catherine Hardwicke
+release-year: 2008
 author: Jason Brown
 tags:
-  - Least Favorite
+  - Least Favorites
 date: 2021-10-11
 ---
 I reluctantly agreed to watch Twilight at the request of my wife. It was as bad as I had feared. It's a teen romance novel with a single interesting twist (what if the love interest was a vampire?) shoved into an agonizingly long movie. The only character I found relateable at all was Bella's father. The acting was whiplash inducing, sometimes emotionless and the next second the character would seem to be at least attempting to convey the opposite. The time scale is all over the place. Towards the climax, Bella drives from Washington to Arizona in the same amount of time it takes for the rest of the crew to run across through the forest. Then Edward seemingly runs from Washington to Arizona in less time than it took them to drive there, just in time to save the day.
