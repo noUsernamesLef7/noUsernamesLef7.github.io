@@ -14,7 +14,7 @@ I like many others have recently come to the realization that I no longer read b
 * *On Liberty* by Jon Stuart Mill
 	* Lots of depth here. Deserves a second, more analytical reading.
 * *Deep Work* by Cal Newport
-	* Been working to implement some of the ideas. I plan to give it some time and then re-read it to harvest more ideas.
+	* I've been working to implement some of the ideas. I plan to give it some time and then re-read it to harvest more ideas.
 * *How to Become a Straight-A Student* by Cal Newport
 	* This book is slightly dated and begging for a second edition. Much of it is not suited for my own circumstance of online school and working full-time but the core ideas remain solid. Quality work produced = time spent * intensity of focus.
 * *The Shallows* by Nicholas Carr
@@ -41,17 +41,17 @@ I like many others have recently come to the realization that I no longer read b
 	* A bit repetitive but does give you some good insight into the types of experience and background needed to get into the field.
 * *Calvin & Hobbes: The Days Are Just Packed* by Bill Watterson
 	* I've loved Calvin & Hobbes since I was a child and have read all of them. It's a nice nostalgia trip to re-read them plus I pick up on more of the jokes now.
-* *The Persians* by Aeschylus
+* *The Persians* by Aeschylus; Translated by Robert Potter
 	* A lot of pandering to the Greek audience, the persians referring to themselves as barbarians and bemoaning how foolish they were to face the mighty Greek armies. Still it was pretty decent and interesting from a historical perspective.
-* *Seven Against Thebes* by Aeschylus
+* *The Seven Against Thebes* by Aeschylus; Translated by E. D. A. Morshead
 	* Decent, the closing scene with Antigone was interesting.
 * *God Is Not Great: How Religion Poisons Everything* by Christopher Hitchens
 	* Hitchens has a way of showing things outside the normal cultural lens we view the world through.
 * *What Isaiah Says To Me* by Daryl Budd
 	* While reading through the Old Testament as part of my reading list, I decided to read my grandfathers book on Isaiah. He definitely spent a lot of time studying it and it's probably a decent study guide for mormons.
 * *The Old Testament (New International Version)*
-	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting,the "prophecy" sections uninteresting apart from noting that many of them have passed their stated time frame.
-* *Agamemnon* by Aeschylus
+	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting, the prophecy sections uninteresting apart from noting that many of them have passed their stated time frame.
+* *Agamemnon* by Aeschylus; Translated by E. D. A. Morshead
 	* Assuming you don't already know the story, this one comes with not one but two dramatic twists. My favorite tragedy so far in my exploration.
 * *PowerShell for Sysadmins: Workflow Automation Made Easy* by Adam Bertram
 	* A pretty decent introduction to PowerShell. I've been using it more and more at work since I started this book and I'm really enjoying it.
@@ -59,7 +59,9 @@ I like many others have recently come to the realization that I no longer read b
 	* I've read several blog posts and tutorials on slip box notetaking over the last year but for some reason it failed to really sink in until I read this book. It feels much more intuitive now.
 * *Designing Virtual Worlds* by Richard Bartle
 	* I found the philosophical bits uninteresting but the author has spent a lot of time considering how to build virtual worlds and what questions to ask.
-* *The Libation Bearers* by Aeschylus
+* *The Libation Bearers* by Aeschylus; Translated by E. D. A. Morshead
 	* Very dramatic, very enjoyable.
-* *The Eumenides* by Aeschylus
+* *Eumenides* by Aeschylus; Translated by E. D. A. Morshead
 	* Also quite gripping, more philosophy and morality than the previous play of the trilogy.
+* *Prometheus Bound* by Aeschylus
+	* The conclusion of my exploration of Aeschylus. The pacing felt different and it almost read like a dramatized biblical story, which I guess makes sense.
