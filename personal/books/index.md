@@ -65,3 +65,13 @@ I like many others have recently come to the realization that I no longer read b
 	* Also quite gripping, more philosophy and morality than the previous play of the trilogy.
 * *Prometheus Bound* by Aeschylus
 	* The conclusion of my exploration of Aeschylus. The pacing felt different and it almost read like a dramatized biblical story, which I guess makes sense.
+* *Antigone* by Sophocles; Translated by Elizabeth Wyckoff
+	* I learned that the ending in the version of Seven Against Thebes I read was inserted later after the death of Aeschylus to incorporate this play into something resembling a whole story.
+* *Warrior: En Garde* By Michael Stackpole
+	* This one did what Battletech novels do best. Lots of giant robot combat, seemingly a new battle every other chapter.
+* *Oedipus The King* by Sophocles; Translated by David Greene
+	* Truly tragic. Sucks to be that guy.
+* *Silas Marner* by George Eliot
+	* A mans journey from satisfaction, to the depths of depression, false satisfaction, back to depression, and then forward to true happiness. Interesting takes on organized religion.
+* *Oedipus At Colonus* by Sophocles; Translated by Robert Fitzgerald
+	* A much sadder and more bitter version of Oedipus.
