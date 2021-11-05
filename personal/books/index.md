@@ -75,3 +75,5 @@ I like many others have recently come to the realization that I no longer read b
 	* A mans journey from satisfaction, to the depths of depression, false satisfaction, back to depression, and then forward to true happiness. Interesting takes on organized religion.
 * *Oedipus At Colonus* by Sophocles; Translated by Robert Fitzgerald
 	* A much sadder and more bitter version of Oedipus.
+* *Learning The vi and VIM editors* by Arnold Robbins, Elbert Hannah, & Linda Lamb
+    	* I've been using Vim fairly frequently for about two years now but had barely scratched the surface. I realized a short way into this book that I only knew a fraction of the movement commands. It's really made a difference and was worth the time investment.
