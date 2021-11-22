@@ -77,3 +77,5 @@ I like many others have recently come to the realization that I no longer read b
 	* A much sadder and more bitter version of Oedipus.
 * *Learning The vi and VIM editors* by Arnold Robbins, Elbert Hannah, & Linda Lamb
     	* I've been using Vim fairly frequently for about two years now but had barely scratched the surface. I realized a short way into this book that I only knew a fraction of the movement commands. It's really made a difference and was worth the time investment.
+* *Odyssey One: Into The Black* by Evan Currie
+	* Absolutely fantastic. The pacing is very fast, it almost made me feel like I was the captain having to confront all these rapidly changing circumstances and dealing with each new crisis. Great space combat action and even better ground combat. Had a few novel technologies but didn't fall into the common trap of not fully thinking through the implications and applications. Just a really great sci fi book. I can't wait to read the rest of the series.
