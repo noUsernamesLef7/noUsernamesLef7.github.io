@@ -3,15 +3,12 @@ title: Greengage Wine
 author: Jason Brown
 layout: default
 tags:
-  - wine
-  - alcohol
-  - greengage
-  - green plum
-date: 08/02/2020
+  - Alcohol
+date: 2020-08-02
 ---
 
 # Greengage Wine
-_Author: Jason Brown_
+*Author: Jason Brown*
 
 ### Ingredients
 * 6 lbs Greengages (Green Plums)

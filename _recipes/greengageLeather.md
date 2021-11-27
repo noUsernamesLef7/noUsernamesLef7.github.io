@@ -3,15 +3,12 @@ title: Greengage Leather
 author: Jason Brown
 layout: default
 tags:
-  - fruit leather
-  - snacks
-  - greengage
-  - green plum
-date: 08/02/2020
+  - Snacks
+date: 2020-08-02
 ---
 
 # Greengage Leather
-_Author: Jason Brown_
+*Author: Jason Brown*
 
 ### Ingredients
 * 5 lbs Greengages (Green Plums)
