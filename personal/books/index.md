@@ -6,9 +6,15 @@ title: Books
 ---
 A few groupings of my favorite books on specific topics or genres, as well as a list of all the books I've read this year.
 
-I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
+## 2022
+1. *Fatherneed* by Kyle Pruett
+	* My biggest takeaway was that while some aspects of parenting seem to be more common or unique to fathers, the most important nurturing traits are not gender specific.
+2. *World War 1990: Operation Artic Storm* by William Stroock
+	* I love cold war turned hot stories. While this one could have done with a bit more editing, it was fun and had some interesting ideas. I liked that the story didn't even really pick up until the offensive into west germany was already losing steam and the soviet invasion of Alaska was novel and amusing. I look forward to reading the rest of the series.
 
 ## 2021
+I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
+
 1. *Fox Tossing: and Other Forgotten and Dangerous Sports, Pastimes, and Games* by Edward Brooke-Hitching
 	* Highly entertaining read. I love this style of british humor.
 2. *On Liberty* by Jon Stuart Mill
