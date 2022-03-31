@@ -10,7 +10,6 @@ Welcome to my home on the web. **This page is dedicated to my professional work*
 ## About Me
 I'm a Salt Lake City based IT professional and Cybersecurity student. I love learning about and working with computers. I'm fascinated by all things cybersecurity. I can be contacted by [email](mailto:jason.brown97@protonmail.com) or through [LinkedIn](https://www.linkedin.com/in/jason-brown-a1a964138/).
 
-
 ## Recent Experience
 ### [Castle & Cooke Mortgage](https://castlecookemortgage.com)
 > **IT Support Representative** -- *2021-Present* My current responsibilities include resolving user tickets, installing hardware, imaging devices, managing physical access control systems, Active Directory user administration, Exchange server administration, software license provisioning, and VOIP system administration.
@@ -23,6 +22,8 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 
 ## Certifications
 * [CompTIA A+](https://www.credly.com/badges/e7802eab-17bf-46c9-ba62-3c245e82370f/public_url)
+* [CompTIA Project+](https://www.credly.com/badges/ec26deaa-2dbc-43c6-b7a9-842565966c0b/public_url)
+* [ITIL 4 Foundations](https://www.peoplecert.org/for-corporations/certificate-verification-service) - GR671381647JB
 * [Microsoft MTA - Database Administration Fundamentals](https://www.credly.com/badges/60b6e279-7a98-4b06-8b06-243a697b560f/public_url)
 * [Microsoft MTA - Networking Fundamentals](https://www.credly.com/badges/88ed9237-0a83-4421-a22c-5a3ab1fd839e/public_url)
 
@@ -38,7 +39,8 @@ Cisco Meraki
 ### Languages
 * Java
 * Python
-* PowerShell
+* PowerShell 🧙
+* Bash
 * SQL
 * HTML
 * CSS
