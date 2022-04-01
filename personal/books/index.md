@@ -1,22 +1,27 @@
 ---
 layout: default
-date: 2021-09-19
+date: 2022-03-31
 author: Jason Brown
 title: Books
 ---
-A few groupings of my favorite books on specific topics or genres, as well as a list of all the books I've read this year.
+A few groupings of my favorite books on specific topics or genres, as well as a list of all the books I've read the last few years.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
 	* My biggest takeaway was that while some aspects of parenting seem to be more common or unique to fathers, the most important nurturing traits are not gender specific.
-2. *World War 1990: Operation Artic Storm* by William Stroock
-	* I love cold war turned hot stories. While this one could have done with a bit more editing, it was fun and had some interesting ideas. I liked that the story didn't even really pick up until the offensive into west germany was already losing steam and the soviet invasion of Alaska was novel and amusing. I look forward to reading the rest of the series.
+2. *World War 1990: Operation Arctic Storm* by William Stroock
+	* I love cold war turned hot stories. While this one could have done with a bit more editing, it was fun and had some interesting ideas. I liked that the story didn't even really pick up until the offensive into west Germany was already losing steam and the soviet invasion of Alaska was novel and amusing. I look forward to reading the rest of the series.
+3. *Range* by David Epstein
+	* An interesting and convincing argument for breadth and cross disciplinary learning.
+4. *Cat and Mouse* by Harold Coyle
+	* Feels a lot like Rainbow Six. Exciting small unit tactics and a very jaded view towards army life.
+
 
 ## 2021
 I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
 
 1. *Fox Tossing: and Other Forgotten and Dangerous Sports, Pastimes, and Games* by Edward Brooke-Hitching
-	* Highly entertaining read. I love this style of british humor.
+	* Highly entertaining read. I love this style of British humor.
 2. *On Liberty* by Jon Stuart Mill
 	* Lots of depth here. Deserves a second, more analytical reading.
 3. *Deep Work* by Cal Newport
@@ -32,7 +37,7 @@ I like many others have recently come to the realization that I no longer read b
 8. *Architects of Air Power* by David Nevin
 	* An overview of the early air combat pioneers including Duhet, Mitchell, and Goring. Great pictures.
 9. *Death's Knight* by Matthew Summers & Jena Rey
-	* The perfect level of fantasy for me. Anyone who has played D&D will find the world familar enough but with it's own unique takes.
+	* The perfect level of fantasy for me. Anyone who has played D&D will find the world familiar enough but with it's own unique takes.
 10. *The Odyssey* by Homer; Translated by Richmond Lattimore
 	* Also thoroughly enjoyed. Much more interesting than the abridged version I read in Jr. High School.
 11. *So Good They Can't Ignore You* by Cal Newport
@@ -48,13 +53,13 @@ I like many others have recently come to the realization that I no longer read b
 16. *Calvin & Hobbes: The Days Are Just Packed* by Bill Watterson
 	* I've loved Calvin & Hobbes since I was a child and have read all of them. It's a nice nostalgia trip to re-read them plus I pick up on more of the jokes now.
 17. *The Persians* by Aeschylus; Translated by Robert Potter
-	* A lot of pandering to the Greek audience, the persians referring to themselves as barbarians and bemoaning how foolish they were to face the mighty Greek armies. Still it was pretty decent and interesting from a historical perspective.
+	* A lot of pandering to the Greek audience, the Persians referring to themselves as barbarians and bemoaning how foolish they were to face the mighty Greek armies. Still it was pretty decent and interesting from a historical perspective.
 18. *The Seven Against Thebes* by Aeschylus; Translated by E. D. A. Morshead
 	* Decent, the closing scene with Antigone was interesting.
 19. *God Is Not Great: How Religion Poisons Everything* by Christopher Hitchens
 	* Hitchens has a way of showing things outside the normal cultural lens we view the world through.
 20. *What Isaiah Says To Me* by Daryl Budd
-	* While reading through the Old Testament as part of my reading list, I decided to read my grandfathers book on Isaiah. He definitely spent a lot of time studying it and it's probably a decent study guide for mormons.
+	* While reading through the Old Testament as part of my reading list, I decided to read my grandfathers book on Isaiah. He definitely spent a lot of time studying it and it's probably a decent study guide for Mormons.
 21. *The Old Testament (New International Version)*
 	* I had forgotten that the old testament heavily features magic and gods other than the god of Israel. There are even prophets of the other gods that issue curses and such. I found the history sections interesting, the prophecy sections uninteresting apart from noting that many of them have passed their stated time frame.
 22. *Agamemnon* by Aeschylus; Translated by E. D. A. Morshead
@@ -62,7 +67,7 @@ I like many others have recently come to the realization that I no longer read b
 23. *PowerShell for Sysadmins: Workflow Automation Made Easy* by Adam Bertram
 	* A pretty decent introduction to PowerShell. I've been using it more and more at work since I started this book and I'm really enjoying it.
 24. *How To Take Smart Notes* by Sonke Ahrens
-	* I've read several blog posts and tutorials on slip box notetaking over the last year but for some reason it failed to really sink in until I read this book. It feels much more intuitive now.
+	* I've read several blog posts and tutorials on slip box note taking over the last year but for some reason it failed to really sink in until I read this book. It feels much more intuitive now.
 25. *Designing Virtual Worlds* by Richard Bartle
 	* I found the philosophical bits uninteresting but the author has spent a lot of time considering how to build virtual worlds and what questions to ask.
 26. *The Libation Bearers* by Aeschylus; Translated by E. D. A. Morshead
@@ -86,6 +91,6 @@ I like many others have recently come to the realization that I no longer read b
 35. *Odyssey One: Into The Black* by Evan Currie
 	* Absolutely fantastic. The pacing is very fast, it almost made me feel like I was the captain having to confront all these rapidly changing circumstances and dealing with each new crisis. Great space combat action and even better ground combat. Had a few novel technologies but didn't fall into the common trap of not fully thinking through the implications and applications. Just a really great sci fi book. I can't wait to read the rest of the series.
 36. *Armored Cav* by Tom Clancy
-	* An extremely detailed peek into the world of the well oiled machine that was the armored cavalary immediately after the first Gulf War. I learned a lot of interesting technical details that I hadn't known about before, like the barrel droop sensor on the Abrams and artillery deployed EW rounds.
+	* An extremely detailed peek into the world of the well oiled machine that was the armored cavalry immediately after the first Gulf War. I learned a lot of interesting technical details that I hadn't known about before, like the barrel droop sensor on the Abrams and artillery deployed EW rounds.
 37. *Citrix VDI Handbook And Best Practices* by Citrix
-	* I read through it to get a better understanding of how the various pieces of Citrix infrastructure fit together. The book does a good job of walking your through the entire project lifecycle from conception and planning through to maintenance and troubleshooting.
+	* I read through it to get a better understanding of how the various pieces of Citrix infrastructure fit together. The book does a good job of walking your through the entire project life cycle from conception and planning through to maintenance and troubleshooting.
