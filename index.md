@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2022-01-09
+date: 2022-03-31
 author: Jason Brown
 title: Jason Brown's Site
 ---
@@ -31,10 +31,10 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 > Check out my [GitHub!](https://github.com/noUsernamesLef7)
 
 ### Technologies
-Microsoft Active Directory
-Microsoft 365
-Microsoft Exchange
-Cisco Meraki
+* Microsoft Active Directory
+* Microsoft 365
+* Microsoft Exchange
+* Cisco Meraki
 
 ### Languages
 * Java
