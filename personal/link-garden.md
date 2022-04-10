@@ -9,6 +9,15 @@ title: Link Garden
 ## Thinking & Productivity
 [The Web Browser As A Tool Of Thought](https://thesephist.com/posts/browser/) - [Archive](https://web.archive.org/web/20210820225048/https://thesephist.com/posts/browser/)
 
+## Education
+[Three Angles on Erik Hoel's Aristocratic Tutoring](https://slimemoldtimemold.com/2022/03/20/three-angles-on-erik-hoels-aristocratic-tutoring/) - [Archive](https://slimemoldtimemold.com/2022/03/20/three-angles-on-erik-hoels-aristocratic-tutoring/)
+
+## History
+[Bomb Alarm System](https://computer.rip/2022-04-01-Bomb-Alarm-System.html) - [Archive](http://web.archive.org/web/20220404034632/https://computer.rip/2022-04-01-Bomb-Alarm-System.html)
+
+## Work
+[Hard to work with.](https://lethain.com/hard-to-work-with/) - [Archive](http://web.archive.org/web/20220407165205/https://lethain.com/hard-to-work-with/)
+
 ## National Defense
 [Adversary Drones Are Spying On The U.S. And The Pentagon Acts Like They're UFOs](https://www.thedrive.com/the-war-zone/40054/adversary-drones-are-spying-on-the-u-s-and-the-pentagon-acts-like-theyre-ufos) - [Archive](https://web.archive.org/web/20210420022108/https://www.thedrive.com/the-war-zone/40054/adversary-drones-are-spying-on-the-u-s-and-the-pentagon-acts-like-theyre-ufos)
 
