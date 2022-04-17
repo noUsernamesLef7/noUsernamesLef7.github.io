@@ -6,7 +6,7 @@ title: Link Garden
 ---
 # Link Garden
 
-{% include assets/linkGarden.html %}
+{% include linkGarden.html %}
 
 ## Thinking & Productivity
 [The Web Browser As A Tool Of Thought](https://thesephist.com/posts/browser/) - [Archive](https://web.archive.org/web/20210820225048/https://thesephist.com/posts/browser/)
