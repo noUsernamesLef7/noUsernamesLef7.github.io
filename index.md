@@ -22,6 +22,7 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 
 ## Certifications
 * [CompTIA A+](https://www.credly.com/badges/e7802eab-17bf-46c9-ba62-3c245e82370f/public_url)
+* [CompTIA Network+](https://www.credly.com/badges/dccf5679-036a-449c-ba98-6c30f0c52a48/public_url)
 * [CompTIA Project+](https://www.credly.com/badges/ec26deaa-2dbc-43c6-b7a9-842565966c0b/public_url)
 * [ITIL 4 Foundations](https://www.peoplecert.org/for-corporations/certificate-verification-service) - GR671381647JB
 * [Microsoft MTA - Database Administration Fundamentals](https://www.credly.com/badges/60b6e279-7a98-4b06-8b06-243a697b560f/public_url)
