@@ -1,4 +1,6 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 Gemfile*
-_site/
-.jekyll-cache/
-*.swp
