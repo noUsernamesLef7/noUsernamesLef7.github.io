@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<em>Author : {{ page.author }}</em>
+</br>
+
+<h3>Ingredients</h3>
+<ul>
+	{% for ingredient in page.ingredients %}
+	<li>{{ ingredient }}</li>
+	{% endfor %}
+</ul>
+
+<h3>Steps</h3>
+<ol>
+	{% for step in page.steps %}
+	<li>{{ step }}</li>
+	{% endfor %}
+</ol>
+{{ content }}
