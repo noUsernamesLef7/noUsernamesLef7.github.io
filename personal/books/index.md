@@ -15,7 +15,8 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 	* An interesting and convincing argument for breadth and cross disciplinary learning.
 4. *Cat and Mouse* by Harold Coyle
 	* Feels a lot like Rainbow Six. Exciting small unit tactics and a very jaded view towards army life.
-
+5. *How To Become A Straight-A Student* by Cal Newport
+	* Yes, I read this one again this year. The core ideas are still very applicable and now being a year into my degree at WGU I was able to find some new ideas to improve my current educational habits.
 
 ## 2021
 I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
