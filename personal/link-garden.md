@@ -25,8 +25,16 @@ title: Link Garden
 
 [Hacked Drones and Busted Logistics are the Cyber Future Of Warfare](https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/) - [Archive](https://web.archive.org/web/20210609121859/https://www.brookings.edu/techstream/hacked-drones-and-busted-logistics-are-the-cyber-future-of-warfare/)
 
+[Primer: Statistical Armour](https://www.tanknology.co.uk/post/statistical-armour) - [Archive](https://web.archive.org/web/20220504015909/https://www.tanknology.co.uk/post/statistical-armour)
+
 ## Copyright
 [Alice in Wonderland and the theft of the public domain](https://drewdevault.com/2020/08/24/Alice-in-Wonderland.html) - [Archive](https://web.archive.org/web/20210321155021/https://drewdevault.com/2020/08/24/Alice-in-Wonderland.html)
+
+## Society
+[When Private Equity Becomes Your Landlord](https://www.propublica.org/article/when-private-equity-becomes-your-landlord) - [Archive](https://web.archive.org/web/20220505115402/https://www.propublica.org/article/when-private-equity-becomes-your-landlord_)
+
+[Nuclear Energy](https://www.mariushobbhahn.com/2022-04-10-nuclear_energy/) - [Archive](https://web.archive.org/web/20220411142933/https://www.mariushobbhahn.com/2022-04-10-nuclear_energy/)
+
 
 ## Technology
 [Bringing The Unix Philosophy To The 21st Century](https://blog.kellybrazil.com/2019/11/26/bringing-the-unix-philosophy-to-the-21st-century/) - [Archive](https://web.archive.org/web/20210830160823/https://blog.kellybrazil.com/2019/11/26/bringing-the-unix-philosophy-to-the-21st-century/)
@@ -39,3 +47,5 @@ title: Link Garden
 
 [Two Paradigms of Personal Computing](https://jayriverlong.github.io/2020/10/27/machines.html) - [Archive](https://web.archive.org/web/20210224203056/https://jayriverlong.github.io/2020/10/27/machines.html)
 
+### Home Automation
+[My Smart Home 2021](https://jorisroovers.com/posts/my-smart-home-2021) - [Archive](https://web.archive.org/web/20220314141746/https://jorisroovers.com/posts/my-smart-home-2021)
