@@ -12,13 +12,11 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 
 ## Recent Experience
 ### [Castle & Cooke Mortgage](https://castlecookemortgage.com)
-> **IT Support Representative** -- *2021-Present* My current responsibilities include resolving user tickets, installing hardware, imaging devices, managing physical access control systems, Active Directory user administration, Exchange server administration, software license provisioning, and VOIP system administration.
+> **Systems Administrator** -- *2022-Present* A little of everything. vSphere administration, managing Nimble storage appliances, Windows and Linux server administration, Meraki network administration, backup management, and of course I'm still our resident PowerShell guy.
+> **IT Support Technician** -- *2021-2022* My responsibilities included resolving user tickets, installing hardware, imaging devices, managing physical access control systems, Active Directory user administration, Exchange server administration, software license provisioning, and VOIP system administration.
 
 ### [PlanSource](https://plansource.com)
 > **EDI Analyst** -- *2019-2020* At PlanSource I built and managed healthcare insurance eligibility file feeds sent to leading insurance carriers. Most integrations used the industry standard ANSI 834A 5010 format and were transmitted over SFTP. Sometimes PGP encryption was also used. My work orders were tracked and managed in Salesforce.
-
-### [Conservice](https://www.conservice.com)
-> **EDE/EDI Setup Processor** -- *2018-2019* As an electronic data interchange specialist I gathered information about client systems and software then determined how to integrate them with our process. Typically this involved setting up automated queries of a common industry standard softwares REST API's though I also set up integrations using other protocols such as SFTP and FTPS.
 
 ## Certifications
 * [CompTIA A+](https://www.credly.com/badges/e7802eab-17bf-46c9-ba62-3c245e82370f/public_url)
@@ -32,6 +30,9 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 > Check out my [GitHub!](https://github.com/noUsernamesLef7)
 
 ### Technologies
+* VMWare vSphere
+* HPE Nimble
+* Ansible
 * Microsoft Active Directory
 * Microsoft 365
 * Microsoft Exchange
@@ -45,7 +46,3 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 * SQL
 * HTML
 * CSS
-
-## Licenses
-* Utah Armed Security Officer
-* Utah Unarmed Security Officer
