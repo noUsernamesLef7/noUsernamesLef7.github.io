@@ -13,10 +13,11 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 ## Recent Experience
 ### [Castle & Cooke Mortgage](https://castlecookemortgage.com)
 > **Systems Administrator** -- *2022-Present* A little of everything. vSphere administration, managing Nimble storage appliances, Windows and Linux server administration, Meraki network administration, backup management, and of course I'm still our resident PowerShell guy.
+
 > **IT Support Technician** -- *2021-2022* My responsibilities included resolving user tickets, installing hardware, imaging devices, managing physical access control systems, Active Directory user administration, Exchange server administration, software license provisioning, and VOIP system administration.
 
 ### [PlanSource](https://plansource.com)
-> **EDI Analyst** -- *2019-2020* At PlanSource I built and managed healthcare insurance eligibility file feeds sent to leading insurance carriers. Most integrations used the industry standard ANSI 834A 5010 format and were transmitted over SFTP. Sometimes PGP encryption was also used. My work orders were tracked and managed in Salesforce.
+> **EDI Analyst** -- *2019-2020* At PlanSource I built and managed healthcare insurance eligibility file feeds sent to leading insurance carriers. Most integration's used the industry standard ANSI 834A 5010 format and were transmitted over SFTP. Sometimes PGP encryption was also used. My work orders were tracked and managed in Salesforce.
 
 ## Certifications
 * [CompTIA A+](https://www.credly.com/badges/e7802eab-17bf-46c9-ba62-3c245e82370f/public_url)
