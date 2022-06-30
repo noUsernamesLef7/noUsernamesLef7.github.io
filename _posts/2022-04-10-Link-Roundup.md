@@ -26,6 +26,6 @@ Some of my favorite posts on blogs I follow are the occasional collections of in
 * [Kagi](https://kagi.com/) - A highly customizable search engine. Want to only show certain categories of results, or blacklist SEO spam domains?
 * [Space Station 14](https://spacestation14.io/) - Open Source modern remake of Space Station 13.
 * [Blog Surf](https://blogsurf.io) - A search engine that indexes only blogs. 
-* [TuiCSS](https://github.com/vinibiavatti1/TuiCss) - A CSS/JS library for creating websites with a tui style interface.
+* [TuiCSS](https://github.com/vinibiavatti1/TuiCss) - A CSS/JS library for creating websites with a TUI style interface.
 
 That's probably enough for now. I'm thinking about making this a maybe once a month affair, so now that it's in the back of my mind I can mentally sort things to add here next time.
