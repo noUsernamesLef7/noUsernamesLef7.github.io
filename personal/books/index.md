@@ -1,10 +1,12 @@
 ---
 layout: default
-date: 2022-03-31
+date: 2022-08-14
 author: Jason Brown
 title: Books
 ---
 A few groupings of my favorite books on specific topics or genres, as well as a list of all the books I've read the last few years.
+
+[World War III Stories](./ww3)
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
@@ -14,9 +16,23 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 3. *Range* by David Epstein
 	* An interesting and convincing argument for breadth and cross disciplinary learning.
 4. *Cat and Mouse* by Harold Coyle
-	* Feels a lot like Rainbow Six. Exciting small unit tactics and a very jaded view towards army life.
+	* Feels a lot like rainbow six. Exciting small unit tactics and a very jaded view towards army life.
 5. *How To Become A Straight-A Student* by Cal Newport
 	* Yes, I read this one again this year. The core ideas are still very applicable and now being a year into my degree at WGU I was able to find some new ideas to improve my current educational habits.
+6. *This Is How They Tell Me The World Ends: The Cyberweapons Arms Race* by Nicole Perlroth
+	* A detailed non-technical exploration of the history of paying for 0days and the development of modern cyberweapons. I'm still trying to put some of the arms race claims in context given what has been learned since the Russian invasion of Ukraine (after this book was written).
+7. *Ajax* by Sophocles
+	* I seem to really enjoy the stories that give context and are told around the Iliad and the Odyssey. I suppose they feel more grounded because I recognize characters.
+8. *The Women Of Trachis* by Sophocles
+	* Love potions never work out the way you want them to.
+9. *Electra* by Sophocles
+	* One of my favorite Greek plays. An interesting viewpoint into the story of Orestes avenging his fathers murder.
+10. *The Practice Of System And Network Administration, vol. 1* by Limoncelli, Chalup, & Hogan
+	* It probably can't make up entirely for learning hands on from someone with real experience but it's a good substitute. I HIGHLY recommend all young sysadmins read this book and if you find yourself lacking guidance from a more experienced admin then this book is essential.
+11. *Dad Jokes For New Dads* by Jimmy Niro
+	* There were some pretty good ones in here. I can't wait for Jaxon to be old enough to start cringing.
+12. *Philoctetes* by Sophocles
+	* The deus ex machina ending was frankly a bit disappointing. Also I'm picking up that Sophocles really did not like Odysseus.
 
 ## 2021
 I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
