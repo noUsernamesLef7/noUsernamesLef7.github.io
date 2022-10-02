@@ -8,7 +8,7 @@ title: Jason Brown's Site
 Welcome to my home on the web. **This page is dedicated to my professional work**. If you are looking for my personal pages, head over [here](/personal).
 
 ## About Me
-I'm a Salt Lake City based IT professional and Cybersecurity student. I love learning about and working with computers. I'm fascinated by all things cybersecurity. I can be contacted by [email](mailto:jason.brown97@protonmail.com) or through [LinkedIn](https://www.linkedin.com/in/jason-brown-a1a964138/).
+I'm a Salt Lake City based IT professional and Cybersecurity student. I love learning about and working with computers. I'm fascinated by all things cybersecurity. I can be contacted by [email](mailto:jason@jasonrbrown.dev) or through [LinkedIn](https://www.linkedin.com/in/jason-brown-a1a964138/).
 
 ## Recent Experience
 ### [Castle & Cooke Mortgage](https://castlecookemortgage.com)
