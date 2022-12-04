@@ -33,6 +33,19 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 	* There were some pretty good ones in here. I can't wait for Jaxon to be old enough to start cringing.
 12. *Philoctetes* by Sophocles
 	* The deus ex machina ending was frankly a bit disappointing. Also I'm picking up that Sophocles really did not like Odysseus.
+13. *Red Storm Rising* by Tom Clancy
+    * Read one of my favorite books aloud to the baby. He had no idea what I was saying but liked listening to me and falling asleep to my voice.
+14. *The Revenge of The Baby-Sat* by Bill Watterson
+    * I still love Calvin and Hobbes. It seems to have become my go to reading material for airports and planes.
+15. *Cryptography* by William J. Buchanan
+    * Textbook for school. Ended up reading the entire thing because the math was presented so well.
+16. *Mastering Active Directory, 3rd Edition* by Dishan Francis
+    * Read the whole thing. The timing was serendipitous as shortly after reading, I had to perform some AD related recovery, maintenance, and upgrades at work and the knowledge gained from this book was invaluable.
+17. *Team Yankee: A Novel of World War III* by Harold Coyle
+    * Another of the best WWIII novels out there. This one is set in the world of Gen. Hackett's The Third World War but from the perspective of a cavalry company commander. Love how things flow, with minimal time skipping which really gives a sense to the pacing of high intensity conflict. In fact, most of the time jumps that occur are when the main character is sleeping. Nothing else like it.
+18. *The Rust Programming Language* by Steve Klabnik and Carol Nichols
+    * Great overview of the language! I finished it just in time to begin participating in the 2022 Advent of Code writing all my solutions in Rust.
+
 
 ## 2021
 I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
@@ -47,7 +60,7 @@ I like many others have recently come to the realization that I no longer read b
 	* This book is slightly dated and begging for a second edition. Much of it is not suited for my own circumstance of online school and working full-time but the core ideas remain solid. Quality work produced = time spent * intensity of focus.
 5. *The Shallows* by Nicholas Carr
 	* A bit meandering, a bit hopeless. The author has few practical suggestions for avoiding the problems he highlights.
-6. *Fair Play* by Eve Rodsky
+6. *Fair Play* by Eve Roads
 	* A proposed system for dividing household labor. I especially like the idea of each person being solely responsible for what's on their plate from conception, through planning, and on to execution. No need to remind each other to get started on something.
 7. *The Iliad* by Homer; Translated by Richmond Lattimore
 	* Surprisingly engaging. I went in expecting a slog and was pleasantly surprised.
