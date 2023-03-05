@@ -1,12 +1,20 @@
 ---
 layout: default
-date: 2022-08-14
+date: 2023-02-26
 author: Jason Brown
 title: Books
 ---
 A few groupings of my favorite books on specific topics or genres, as well as a list of all the books I've read the last few years.
 
 [World War III Stories](./ww3)
+
+## 2023
+1. *Life's Daughter* by Jena Rey & Matthew Summers
+    * An excellent followup to the first book in the War of the Lich series, Death's Knight. Can't wait for the next one.
+2. *Ansible for DevOps* by Jeff Geerling
+    * Pretty good, was able to apply a lot of it to my existing playbooks. Sadly contains no info on managing Windows hosts.
+3. *The Hitchhiker's Guide to the Galaxy* by Douglas Adams
+    * Always a pleasure to read. This time I read it aloud to the family as a supplemental bedtime story.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
