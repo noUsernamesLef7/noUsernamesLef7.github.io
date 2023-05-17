@@ -15,6 +15,14 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * Pretty good, was able to apply a lot of it to my existing playbooks. Sadly contains no info on managing Windows hosts.
 3. *The Hitchhiker's Guide to the Galaxy* by Douglas Adams
     * Always a pleasure to read. This time I read it aloud to the family as a supplemental bedtime story.
+4. *The Histories* by Herodotus
+    * This was a long read! It was fascinating and again, far more enjoyable than I expected. I'm reminded once more that people more than two thousand years again were much like people today.
+5. *Warrior: Riposte* by Michael Stackpole
+    * The fourth succession war begins! Enjoyable both for the political intrigue and the combat.
+6. *The Afghan War: Operation Enduring Freedom* by Anthony Tucker-Jones
+    * A history of the Afghan war written seven years before it ended. In fairness though, it was really just meant to cover OEF.
+7. *Warrior: Coupe* by Michael Stackpole
+    * Wraps the trilogy up nicely, leaving only one loose end that really bothered me. (How do they react to realizing the NAIS raiders weren't the Death Commando battalion?) A few of the threads that were tied up were done in rather unsatisfying ways. Morgan Kell and Yorinaga's duel and Justing Xiang Allards arc endings felt rather cheap.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
