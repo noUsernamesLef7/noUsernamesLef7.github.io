@@ -22,7 +22,11 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 6. *The Afghan War: Operation Enduring Freedom* by Anthony Tucker-Jones
     * A history of the Afghan war written seven years before it ended. In fairness though, it was really just meant to cover OEF.
 7. *Warrior: Coupe* by Michael Stackpole
-    * Wraps the trilogy up nicely, leaving only one loose end that really bothered me. (How do they react to realizing the NAIS raiders weren't the Death Commando battalion?) A few of the threads that were tied up were done in rather unsatisfying ways. Morgan Kell and Yorinaga's duel and Justing Xiang Allards arc endings felt rather cheap.
+    * Wraps the trilogy up nicely, leaving only one loose end that really bothered me. (How do they react to realizing the NAIS raiders weren't the Death Commando battalion?) A few of the threads that were tied up were done in rather unsatisfying ways. Morgan Kell and Yorinaga's duel and Justin Xiang Allards arc endings felt rather cheap.
+8. *Extreme Privacy, 4th Edition* by Michael Bazzell
+    * A great update to my previous copy of the 2nd edition. Updates stuff from there and adds a lot of new content as well.
+9. *On Basilisk Station* by David Weber
+    * My favorite of the Honor Harrington series. Just an excellent all around sci-fi novel.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
