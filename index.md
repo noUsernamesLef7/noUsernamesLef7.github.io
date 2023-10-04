@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2023-09-28
+date: 2023-10-03
 author: Jason Brown
 title: Jason Brown's Site
 ---
@@ -12,7 +12,7 @@ I'm a Salt Lake City based IT professional and Cybersecurity student. I love lea
 
 ## Recent Experience
 ### [Castle & Cooke Mortgage](https://castlecookemortgage.com)
-> **Systems Administrator** -- *2022-Present* A little of everything, though since the beginning of 2023 much of my time has shifted to a cybersecurity focus. vSphere administration, managing Nimble storage appliances, Windows and Linux server administration, backup management with Veeam, and of course I'm still our resident PowerShell guy. I perform regular work to improve the security of all this infrastructure, along with routine patching and tracking of known vulnerabilities. I also perform our Meraki network administration with an emphasis on network security and running the IDS, firewall, and content filtering on the security appliances. I monitor and respond to alerts from all of our security solutions, including the IDS, email security gateway, SIEM, EDR software, Nessus vulnerability scans, and Microsoft 365. I also administrate the physical access control software, along with desigining and enforcing software and file ACL's through Active Directory.
+> **Systems Administrator** -- *2022-Present* A little of everything, though since the beginning of 2023 much of my time has shifted to a cybersecurity focus. vSphere administration, managing Nimble storage appliances, Windows and Linux server administration, backup management with Veeam, and of course, I'm still our resident PowerShell guy. I perform regular work to improve the security of all this infrastructure, along with routine patching and tracking of known vulnerabilities. I also perform our Meraki network administration with an emphasis on network security and running the IDS, firewall, and content filtering on the security appliances. Furthermore, I monitor and respond to alerts from all of our security solutions, including the IDS, email security gateway, SIEM, EDR software, Nessus vulnerability scans, and Microsoft 365. I also administer the physical access control software, along with designing and enforcing software and file ACL's through Active Directory.
 
 > **IT Support Technician** -- *2021-2022* My responsibilities included resolving user tickets, installing hardware, imaging devices, managing physical access control systems, Active Directory user administration, Exchange server administration, software license provisioning, and VOIP system administration.
 
