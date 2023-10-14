@@ -29,6 +29,12 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * My favorite of the Honor Harrington series. Just an excellent all around sci-fi novel.
 10. *Arc Light* by Eric Harry
     * A great WW3 novel. Most in the genre dance around nukes because they make it hard to have a good conventional war when the industrial base of both sides has been obliterated. Arc Light doesn't hold back in that regard and manages to make it work in a convincing scenario. There is no good side in this story, there are no real winners. The sense of dread the book conveys is potent and I felt helpless as the situation spirals out of control.
+11. *Game Over: Blork Raider* by Midam
+    * A fun little comic a co-worker introduced me to back around 2019. Follows a videogame hero trying to save the princess as he is repeatedly killed, crippled, and maimed in the effort by all sorts of devious traps, weird monsters, and bad luck.
+12. *Game Over: No Problemo* by Midam
+    * I forgot the name of this series and couldn't find it again online until recently. Apparently it's only been published in France and never in the US which made it harder to find.
+13. *Game Over: Gouzi Gouzi Gouzi* by Midam
+    * I honestly have no idea why this series hasn't been published in the US. It's hilarious and is pretty much entirely visual so there isn't really any translation to do.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
