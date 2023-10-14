@@ -5,7 +5,7 @@ author: Jason Brown
 title: World War III Stories
 
 ---
-A few of my favorites stories about what may have happened in the late 20th century had cooler heads not prevailed. I also include a couple of stories that aren't strictly Cold War turned hot scenarios.
+A few of my favorites stories about what may have happened in the late 20th century had cooler heads not prevailed. I also include a couple of stories that aren't strictly Cold War turned hot scenarios. No particular order.
 
 1. *Red Storm Rising* by Tom Clancy (And Larry Bond)
 2. *The Third World War* by Sir General John Hackett, et al.
@@ -14,4 +14,5 @@ A few of my favorites stories about what may have happened in the late 20th cent
 5. *Vortex* by Larry Bond
 6. *Red Phoenix* by Larry Bond
 7. *World War 1990* by William Stroock
+8. *Arc Light* by Eric Harry
 

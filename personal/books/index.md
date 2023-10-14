@@ -27,6 +27,8 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * A great update to my previous copy of the 2nd edition. Updates stuff from there and adds a lot of new content as well.
 9. *On Basilisk Station* by David Weber
     * My favorite of the Honor Harrington series. Just an excellent all around sci-fi novel.
+10. *Arc Light* by Eric Harry
+    * A great WW3 novel. Most in the genre dance around nukes because they make it hard to have a good conventional war when the industrial base of both sides has been obliterated. Arc Light doesn't hold back in that regard and manages to make it work in a convincing scenario. There is no good side in this story, there are no real winners. The sense of dread the book conveys is potent and I felt helpless as the situation spirals out of control.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
