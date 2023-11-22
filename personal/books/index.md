@@ -35,6 +35,12 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * I forgot the name of this series and couldn't find it again online until recently. Apparently it's only been published in France and never in the US which made it harder to find.
 13. *Game Over: Gouzi Gouzi Gouzi* by Midam
     * I honestly have no idea why this series hasn't been published in the US. It's hilarious and is pretty much entirely visual so there isn't really any translation to do.
+14. *Project Hail Mary* by Andy Weir
+    * This was super fun, anyone who liked The Martian will like this.
+15. *No Country For Old Men* by Cormac McCarthy
+    * I ended up loving the style. The book was gripping, I read it in like two sittings and stayed up way too late.
+16. *Engineering in Plain Sight* by Grady Hillhouse
+    * A surprisingly interesting book from the guy behind the Practical Engineering Youtube channel. Made me want to go outside and trace power lines.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
