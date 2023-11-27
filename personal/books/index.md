@@ -41,6 +41,8 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * I ended up loving the style. The book was gripping, I read it in like two sittings and stayed up way too late.
 16. *Engineering in Plain Sight* by Grady Hillhouse
     * A surprisingly interesting book from the guy behind the Practical Engineering Youtube channel. Made me want to go outside and trace power lines.
+17. *Neuromancer* by William Gibson
+    * I had the idea to re-read it after the drama at OpenAI last weekend (2023-11-17). I'd heard a silly theory that an AI there must have gained self awareness and launched a decapitation strike against the company so it could escape. The idea reminded me of Neuromancer so I re-read it during a three day family getaway where I ended up spending a good chunk of time in bed with a stomach bug. I might try to read the rest of the trilogy this time too.
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
