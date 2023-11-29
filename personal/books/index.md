@@ -16,7 +16,7 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 3. *The Hitchhiker's Guide to the Galaxy* by Douglas Adams
     * Always a pleasure to read. This time I read it aloud to the family as a supplemental bedtime story.
 4. *The Histories* by Herodotus
-    * This was a long read! It was fascinating and again, far more enjoyable than I expected. I'm reminded once more that people more than two thousand years again were much like people today.
+    * This was a long read! It was fascinating and again, far more enjoyable than I expected. I'm reminded once more that people more than two thousand years ago were much like people today.
 5. *Warrior: Riposte* by Michael Stackpole
     * The fourth succession war begins! Enjoyable both for the political intrigue and the combat.
 6. *The Afghan War: Operation Enduring Freedom* by Anthony Tucker-Jones
@@ -43,6 +43,8 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * A surprisingly interesting book from the guy behind the Practical Engineering Youtube channel. Made me want to go outside and trace power lines.
 17. *Neuromancer* by William Gibson
     * I had the idea to re-read it after the drama at OpenAI last weekend (2023-11-17). I'd heard a silly theory that an AI there must have gained self awareness and launched a decapitation strike against the company so it could escape. The idea reminded me of Neuromancer so I re-read it during a three day family getaway where I ended up spending a good chunk of time in bed with a stomach bug. I might try to read the rest of the trilogy this time too.
+18. *Calvin & Hobbes: It's a Magical World* by Bill Watterson
+    * Hobbes: "What's the point of attaching a number to everything you do?" Calvin: "If your numbers go up, it means you're having fun." Hobbes: "Science to the spirits rescue once again."
 
 ## 2022
 1. *Fatherneed* by Kyle Pruett
