@@ -8,6 +8,18 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 
 [World War III Stories](./ww3)
 
+## 2024
+1. *Home Buying Kit for Dummies, 7th Edition* by Eric Tyson and Ray Brown
+    * Lots of good resources and a few gems of advice.
+2. *Frigate* by John Wingate
+    * I do love a good story of a new commanding officer winning the respect of a demoralized crew. The geopolitical situation is contrived to shine a spotlight on the naval action and feels flimsy. The focus on Norway and arctic Europe was novel and well done. It does almost feel like it wasn't a complete story, like the series was originally written as one long book and then split into three.
+3. *Potty Training in 3 Days* by Brandi Brucks
+    * This summer should be fun...
+4. *Slow Productivity* by Cal Newport
+    * A good addition to the Cal Newport canon. I liked the format a lot, the concrete suggestions from the first two parts all seem like good ideas to me. The third part did not resonate with me as much and seemed the weakest too me.
+5. *Gods of War* by William S. Frisbee, Jr.
+    * U.S. Marines frozen in time wake up in the future to find themselves at a turning point for humanity. I got halfway through and wasn't sure if I liked it, but then it really got started around page 300 and I stayed up late to finish it. The first 100 pages or so were good, but then there was a large section of about 150 pages I couldn't really connect with.
+
 ## 2023
 1. *Life's Daughter* by Jena Rey & Matthew Summers
     * An excellent followup to the first book in the War of the Lich series, Death's Knight. Can't wait for the next one.
@@ -83,7 +95,6 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * Another of the best WWIII novels out there. This one is set in the world of Gen. Hackett's The Third World War but from the perspective of a cavalry company commander. Love how things flow, with minimal time skipping which really gives a sense to the pacing of high intensity conflict. In fact, most of the time jumps that occur are when the main character is sleeping. Nothing else like it.
 18. *The Rust Programming Language* by Steve Klabnik and Carol Nichols
     * Great overview of the language! I finished it just in time to begin participating in the 2022 Advent of Code writing all my solutions in Rust.
-
 
 ## 2021
 I like many others have recently come to the realization that I no longer read books. I noticed this in 2019 when it was nearly October and I couldn't recall a single book that I'd read all year. I decided to change that in 2020 and found that it was actually somewhat difficult to get back into. My attention wandered and I had difficulty finding the time, it's almost like I had to re-learn how to read a book. I actually did read a book entitled *How to Read a Book by Mortimer Adler* in an attempt to recover this seemingly lost talent. My efforts that year were acceptable I suppose but 2021 is off to a great start. February is not yet over at the time of this writing and I've already read seven books, more than all of 2019.
