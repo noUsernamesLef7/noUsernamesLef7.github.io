@@ -19,6 +19,10 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * A good addition to the Cal Newport canon. I liked the format a lot, the concrete suggestions from the first two parts all seem like good ideas to me. The third part did not resonate with me as much and seemed the weakest too me.
 5. *Gods of War* by William S. Frisbee, Jr.
     * U.S. Marines frozen in time wake up in the future to find themselves at a turning point for humanity. I got halfway through and wasn't sure if I liked it, but then it really got started around page 300 and I stayed up late to finish it. The first 100 pages or so were good, but then there was a large section of about 150 pages I couldn't really connect with.
+6. *A Court of Thorns and Roses* by Sarah J. Maas
+    * Not the type of book I normally read but it was pretty decent. My wife loves the series so I wanted to see what it was about.
+7. *Learning Microsoft Intune: 2023 Edition* by Scott Duffey
+    * Good for a quick overview of Intune.
 
 ## 2023
 1. *Life's Daughter* by Jena Rey & Matthew Summers
