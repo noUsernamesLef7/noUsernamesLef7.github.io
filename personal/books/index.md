@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2023-02-26
+date: 2024-08-28
 author: Jason Brown
 title: Books
 ---
@@ -23,6 +23,18 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * Not the type of book I normally read but it was pretty decent. My wife loves the series so I wanted to see what it was about.
 7. *Learning Microsoft Intune: 2023 Edition* by Scott Duffey
     * Good for a quick overview of Intune.
+8. *Osephetin's Chosen* by Jena Rey & Matthew Summers
+    * A good and fitting end to the series.
+9. *Small Unit Machine Gun Employment* by Special Tactics
+    * Very interesting, I learned a lot. The diagrams are excellent.
+10. *Comprehensive Combat Fitness Training* by Special Tactics
+    * The pre-planned routines at the end are good starting points, and it has some great advice on practical fitness.
+11. *Organizing Solutions for People with ADHD, 3rd edition* by Susan Pinsky
+    * Was recommended for having ruthlessly low effort, time efficient techniques. It delivered.
+12. *How to Win Friends and Influence People* by Dale Carnegie
+    * Timeless. I've read it before and will certainly read it again.
+13. *The Master of Disguise: My Secret Life in the CIA* by Antonio J. Mendez
+    * Book club choice for October. Not a history of the CIA, but a chance to sit down with Tony and listen to his (declassified) stories, both dull and exciting.
 
 ## 2023
 1. *Life's Daughter* by Jena Rey & Matthew Summers
