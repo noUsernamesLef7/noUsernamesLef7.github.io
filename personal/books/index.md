@@ -35,6 +35,10 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * Timeless. I've read it before and will certainly read it again.
 13. *The Master of Disguise: My Secret Life in the CIA* by Antonio J. Mendez
     * Book club choice for October. Not a history of the CIA, but a chance to sit down with Tony and listen to his (declassified) stories, both dull and exciting.
+14. *The PCOS Plan* by Nadia Brito Pateguana & Jason Fung
+    * The explanation of metabolism was interesting, though I suspect highly simplified. Some of the recipes look promising.
+15. *Great Tales and Poems of Edgar Allan Poe* by Edgar Allan Poe, Vintage collection
+    * Book club November read. I'd never read any of his poetry before but I had read many of the short stories. The Bells and The Raven were my favorite poems.
 
 ## 2023
 1. *Life's Daughter* by Jena Rey & Matthew Summers
