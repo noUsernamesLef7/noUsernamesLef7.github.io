@@ -39,6 +39,10 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * The explanation of metabolism was interesting, though I suspect highly simplified. Some of the recipes look promising.
 15. *Great Tales and Poems of Edgar Allan Poe* by Edgar Allan Poe, Vintage collection
     * Book club November read. I'd never read any of his poetry before but I had read many of the short stories. The Bells and The Raven were my favorite poems.
+16. *History of the Peloponnesian War* by Thucydides, translated by Rex Warner
+    * Quite the rollercoaster through a drawn out war. The defeat at Syracuse was vividly crushing. Many intersting quotes about the nature of man and warfare that still hold true today.
+17. *Ideal War* by Christoper Kubasik
+    * An unsubtle, unapologetic Vietnam War allegory with BattleMechs. Not bad, just very much is what it is.
 
 ## 2023
 1. *Life's Daughter* by Jena Rey & Matthew Summers
