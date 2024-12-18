@@ -43,6 +43,8 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * Quite the rollercoaster through a drawn out war. The defeat at Syracuse was vividly crushing. Many intersting quotes about the nature of man and warfare that still hold true today.
 17. *Ideal War* by Christoper Kubasik
     * An unsubtle, unapologetic Vietnam War allegory with BattleMechs. Not bad, just very much is what it is.
+18. *Wolves on the Border* by Robert Charrette
+    * By far the best of the BattleTech novels I've read so far. Interesting characters and does a good job capturing the grand scope of the Inner Sphere and while still focusing on the personal stories.
 
 ## 2023
 1. *Life's Daughter* by Jena Rey & Matthew Summers
