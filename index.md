@@ -22,9 +22,7 @@ A Salt Lake City based Cybersecurity professional, I love learning about, workin
 > **EDI Analyst** -- *2019-2020* At PlanSource I built and managed healthcare insurance eligibility file feeds sent to leading insurance carriers. Most integration's used the industry standard ANSI 834A 5010 format and were transmitted over SFTP. Sometimes PGP encryption was also used. My work orders were tracked and managed in Salesforce.
 
 ## Education
-B.S. Cybersecurity & Information Assurance - *2023*
-
-**Western Governors University**
+**B.S. Cybersecurity & Information Assurance** - *2023* Western Governors University
 
 ## Certifications
 * [ISC2 SSCP](https://www.credly.com/badges/e3593a73-90dc-4615-ae8b-27b8e7b25a59/public_url) - Member ID 1474998
