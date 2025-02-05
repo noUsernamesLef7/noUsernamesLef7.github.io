@@ -1,12 +1,44 @@
 ---
 layout: default
-date: 2021-08-14
+date: 2025-02-05
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
-## Session 1
+## The Rebooted Adventure
+
+### Session 2
+**2025-01-29**
+* The party began by taking a 90 minutes rest after their encounter with the Flame Lord.
+* After resting, they climbed the stairs back up to the Nobles Quarters.
+* Standing once more in the throne room, the party became highly suspicious of the skulls decorating the room and proceeded to pile them on the floor, with Royce crushing them to shards and dust.
+* The group opened the sealed door marked "Undead" and entered the crypt.
+* Immediately upon entering, the characters were assailed by the patient skeleton guards inside.
+* The party worked together and managed to destroy the five skeletons.
+* Father Esser found a burlap sack of assorted treasures and two of note:
+    * A green vial
+    * A silvery scroll
+* Gwynedd in the combat, managed to snag a thrown black potion out of the air and gave it to Yui for safekeeping.
+* Tragically, this would be one of Gwynedd's last moments. Very soon after, he approached the table full of embalming tools and triggered a trap. Both he and Yui were in the path but Yui with her foxgirl ears managed to hear the spring mechanism triggering and managed to fly into the air just in time to avoid a large scythe swinging out from the wall under the table.
+* The scythe caught Gwynedd in the left femur, splintering it and continuing on to do the same to the right. Now unsupported by his legs, the upper body fell to the floor and shattered into pieces. Gwynedd Ap Awain was no more, now just a broken pile of bones mixed in with broken remains of the skeletons slain moments earlier.
+* Yui flew back to the basecamp to inform the crew and bring Colin as reinforcements for the Vanguard.
+
+### Session 1
+**2025-01-15**
+* The party assembled and moved up the spiral staircases of the keep to reach the Flame Lords library.
+* Once there, they attempted to extinguish him by dumping water on him and hurling water barrels at him.
+* It did not work as they had hoped, and they broke into combat.
+* The fighting went on for some time, with the party eventually realizing that despite dealing a large amount of damage, they were not making much progress.
+* Royce moved to face the Flame Lord and extended his bare hand as an offering of truce.
+* The Flame Lord considered this for a moment, then accepted, grabbing Royce's hand and shaking it vigorously dealing 2d6 burning damage as he did.
+* With peace established, the party attempted to negotiate with the Flame Lord for access to the library or to borrow some books. He refused, so they instead pilfered an important looking book on their way out.
+* The party returned to the base camp and gave the book to Old Man Lew to research.
+
+## Original Adventure
+
+### Session 1
+
 **2022-07-14**
 * Covered rules, player guidelines, GCS, Tabletop Simulator
 * Read Intro
@@ -39,7 +71,7 @@ title: Keeldurn Adventure Log
 	* Hector was able to discern that the apparent forceful breach of the chamber wall was indeed the work of a powerful caster.
 	* The party debated how or if to proceed and settled upon extinguishing all lights, and following along the left hand wall of the tunnel with Godwin leading
 
-## Session 2
+### Session 2
 **2022-07-19**
 * The party journeyed down the tunnel and emerged in the barracks cavern
 	* The cavern was well searched but no loot was found.
@@ -105,7 +137,7 @@ title: Keeldurn Adventure Log
 	* Royce takes a risk and rushes in landing a hefty ax strike on the Draug ax arm that splinters the bone and slices the muscle and tendons away
 	* The Draug ax clatters to the floor as it's crippled arm flops uselessly at the shoulder
 
-## Session 3
+### Session 3
 **2022-07-28**
 * The party finishes off the Draug in horrific fashion
 	* Winnoa abandons her sword thrusts and leans in to bite the Draug in the neck, tearing away bloodless veins and sinews
@@ -133,7 +165,7 @@ title: Keeldurn Adventure Log
 	* Winnoa did some more chomping
 	* All the kobold ambushers appear to have been slain...
 
-## Session 4
+### Session 4
 **2022-08-04**
 * We picked up right after the party had slain the last of the four kobold ambushers.
 	* A bit of looting was done, though they didn't carry much of interest.
@@ -162,3 +194,7 @@ title: Keeldurn Adventure Log
 	* The party reached an incubation chamber, filled with nests of kobold eggs. The lone guard and sole remaining Kobold of the klan, begged for mercy and was struck down.
 	* The party briefly debated what to do and decided to stomp all of the kobold eggs and the little half developed kobolds inside
 	* After a bit more exploration, the party located the kobold treasure horde!
+
+### Session 5
+* Brief encounter with the flame lord
+* The rest of my notes are lost to time...

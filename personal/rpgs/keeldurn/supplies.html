@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--
-***** BEGIN LICENSE BLOCK *****
-Copyright (c) 1998-2021 by Richard A. Wilkes. All rights reserved.
 
-This Source Code Form is subject to the terms of the Mozilla Public
-License, version 2.0. If a copy of the MPL was not distributed with
-this file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-This Source Code Form is "Incompatible With Secondary Licenses", as
-defined by the Mozilla Public License, version 2.0.
-***** END LICENSE BLOCK *****
--->
 
 <head>
 	<meta charset="utf-8" />
@@ -36,7 +25,7 @@ defined by the Mozilla Public License, version 2.0.
 
 			--font-size-14: 0.875rem;
 			--font-size-12: 0.75rem;
-			--font-size-11: 0.6875rem;
+			--font-size-11: 0.6375rem;
 
 			--color-background: 238, 238, 238;
 			--color-on-background: 0, 0, 0;
@@ -106,8 +95,11 @@ defined by the Mozilla Public License, version 2.0.
 		body {
 			background-color: rgb(var(--color-page));
 			color: rgb(var(--color-on-page));
-			margin: 0.25in;
-			margin-bottom: calc(0.25in - 1em);
+			width: 8.5in;
+			margin-top: 0.25in;
+			margin-left: 0.25in;
+			margin-bottom: 0.25in;
+			margin-right: 0.25in;
 		}
 
 		#sheet {
@@ -213,14 +205,16 @@ defined by the Mozilla Public License, version 2.0.
 			grid-template: "header""portrait";
 			grid-template-rows: 0fr auto;
 			border: var(--standard-border);
+			height: calc(100% - 2px);
 		}
 
 		.portrait {
-			background-image: url(data:image/png;base64,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);
+			background-image: url();
 			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
-			width: 6.75rem;
+			background-size: contain;
+			aspect-ratio: 1 / 1;
+			height: 100%;
 		}
 
 		#identity {
@@ -369,8 +363,7 @@ defined by the Mozilla Public License, version 2.0.
 			font: var(--font-page-primary-labels);
 		}
 
-		#hit-locations .dr,
-		#hit-locations .roll {
+		#hit-locations .dr {
 			text-align: center;
 		}
 
@@ -430,56 +423,12 @@ defined by the Mozilla Public License, version 2.0.
 			text-align: left;
 		}
 
-		.level-number.enc0:after {
-			content: "0";
-		}
-
-		.level-number.enc1:after {
-			content: "1";
-		}
-
-		.level-number.enc2:after {
-			content: "2";
-		}
-
-		.level-number.enc3:after {
-			content: "3";
-		}
-
-		.level-number.enc4:after {
-			content: "4";
-		}
-
-		.level.enc0:after {
-			content: "None";
-		}
-
-		.level.enc1:after {
-			content: "Light";
-		}
-
-		.level.enc2:after {
-			content: "Medium";
-		}
-
-		.level.enc3:after {
-			content: "Heavy";
-		}
-
-		.level.enc4:after {
-			content: "X-Heavy";
-		}
-
 		#encumbrance .current {
 			background-color: rgb(var(--color-marker)) !important;
 		}
 
 		#encumbrance .current.level {
 			color: rgb(var(--color-on-marker)) !important;
-		}
-
-		svg path.shape-equipped-0 {
-			display: none;
 		}
 
 		#encumbrance .header {
@@ -542,17 +491,17 @@ defined by the Mozilla Public License, version 2.0.
 			display: grid;
 			grid-auto-columns: 1fr 1fr;
 			gap: var(--section-gap);
-			grid-template:
-				"reactions reactions"
+			grid-template: "other_equipment other_equipment"
+"reactions reactions"
+"conditional_modifiers conditional_modifiers"
 "melee melee"
 "ranged ranged"
-"advantages skills"
+"traits traits"
+"skills skills"
 "spells spells"
 "equipment equipment"
-"other_equipment other_equipment"
 "notes notes"
-"conditional_modifiers conditional_modifiers"
- ;
+;
 		}
 
 		#melee {
@@ -686,7 +635,7 @@ defined by the Mozilla Public License, version 2.0.
 		}
 
 		#traits {
-			grid-area: advantages;
+			grid-area: traits;
 			grid-template-columns: min-content 1fr repeat(2, auto);
 		}
 
@@ -808,32 +757,6 @@ defined by the Mozilla Public License, version 2.0.
 			padding: var(--padding-header);
 		}
 
-		.legality-class.Open::after {
-			content: "4";
-		}
-
-		.legality-class.Licensed::after {
-			content: "3";
-		}
-
-		.legality-class.Restricted::after {
-			content: "2";
-		}
-
-		.legality-class.Military::after {
-			content: "1";
-		}
-
-		.legality-class.Banned::after {
-			content: "0";
-		}
-
-		#embeds .uses.max0 {
-			text-indent: 200%;
-			white-space: nowrap;
-			overflow: hidden;
-		}
-
 		#equipment .entry-parent:nth-child(24n+1):not(.header),
 		#equipment .equipped:nth-child(24n+2):not(.header),
 		#equipment .quantity:nth-child(24n+3):not(.header),
@@ -865,7 +788,7 @@ defined by the Mozilla Public License, version 2.0.
 		}
 
 		#equipment .reference:not(.header) {
-			border-bottom: 1px solid rbg(var(--color-header));
+			border-bottom: 1px solid rgb(var(--color-header));
 		}
 
 		#equipment :nth-last-child(-n+11) {
@@ -938,8 +861,11 @@ defined by the Mozilla Public License, version 2.0.
 		}
 
 		#notes .desc:not(.header),
-		#notes .refrence:not(.header) {
+		#notes .reference:not(.header) {
 			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#notes .desc:not(.header) {
 			border-right: 1px solid rgb(var(--color-header));
 		}
 
@@ -1042,1768 +968,1308 @@ defined by the Mozilla Public License, version 2.0.
 			background-color: inherit;
 		}
 
-		#footer .centre {
-			font: var(--font-page-primary-footer);
+		#footer .center {
 			text-align: center;
+		}
+
+		#footer .center a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+
+		#footer .primary {
+			font: var(--font-page-primary-footer);
 		}
 
 		#footer .right {
 			text-align: right;
 		}
-
-		#footer .right a {
-			color: inherit;
-			text-decoration: inherit;
-		}
 	</style>
 </head>
 
 <body>
-	<div id="sheet">
-		<div id="embeds">
-			<div id="other-equipment">
-				<div class="header entry-parent" readonly></div>
-				<div class="header quantity">#</div>
-				<div class="header desc">Equipment ($31,352)</div>
-				<div class="header uses">Uses</div>
-				<div class="header tech-level">TL</div>
-				<div class="header legality-class">LC</div>
-				<div class="header value">
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path
+<div id="sheet">
+	<div id="embeds">
+		<div id="other-equipment">
+			<div class="header entry-parent" readonly></div>
+			<div class="header quantity">#</div>
+			<div class="header desc">Other Equipment ($11240)</div>
+			<div class="header uses">Uses</div>
+			<div class="header tech-level">TL</div>
+			<div class="header legality-class">LC</div>
+			<div class="header value">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
 							d="M512 80c0 18.01-14.3 34.6-38.4 48-29.1 16.1-72.4 27.5-122.3 30.9-3.6-1.7-7.4-3.4-11.2-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98.01 128 80c0-44.18 85.1-80 192-80 106 0 192 35.82 192 80zm-351.3 81.1c10.2-.7 20.6-1.1 31.3-1.1 62.2 0 117.4 12.3 152.5 31.4 24.8 13.5 39.5 30.3 39.5 48.6 0 3.1-.7 7.9-2.1 11.7-4.6 13.2-17.8 25.3-35 35.6-.1 0-.3.1-.4.2-.3.2-.6.3-.9.5-35 19.4-90.8 32-153.6 32-59.6 0-112.94-11.3-148.16-29.1-1.87-1-3.69-2.8-5.45-2.9C14.28 274.6 0 258 0 240c0-34.8 53.43-64.5 128-75.4 10.5-1.6 21.4-2.8 32.7-3.5zm231.2 25.5c28.3-4.4 54.2-11.4 76.2-20.5 16.3-6.8 31.4-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9-14.7 7.4-32.4 13.6-52.4 18.4.1-1.7.2-3.5.2-5.3 0-21.9-10.6-39.9-24.1-53.4zM384 336c0 18-14.3 34.6-38.4 48-1.8.1-3.6 1.9-5.4 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.58-12.6-153.61-32C14.28 370.6 0 354 0 336v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 342.6 135.8 352 192 352c56.2 0 108.6-9.4 148.1-25.9 7.8-3.2 15.3-6.9 22.4-10.9 6.1-3.4 11.8-7.2 17.2-11.2 1.5-1.1 2.9-2.3 4.3-3.4V336zm32-57.9c18.1-5 36.5-9.5 52.1-16 16.3-6.8 31.4-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9-16.3 16.3-45 29.7-81.3 38.4.1-1.7.2-3.5.2-5.3v-57.9zM192 448c56.2 0 108.6-9.4 148.1-25.9 16.3-6.8 31.4-15.2 43.9-25.5V432c0 44.2-86 80-192 80C85.96 512 0 476.2 0 432v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 438.6 135.8 448 192 448z">
-						</path>
-					</svg>
-				</div>
-				<div class="header weight">
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path
+					</path>
+				</svg>
+			</div>
+			<div class="header weight">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
 							d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
-						</path>
-					</svg>
-				</div>
-				<div class="header extended-value">
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path
+					</path>
+				</svg>
+			</div>
+			<div class="header extended-value">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
 							d="M232.5 5.171a56.026 56.026 0 0 1 47 0L498.1 106.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 145.8 0 137.3 0 127.1c0-8.5 5.437-17 13.93-20.9L232.5 5.171zM498.1 234.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 273.8 0 265.3 0 255.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0l152-70.2 53.2 24.6zM292.9 407.8l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 401.8 0 393.3 0 383.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0z">
-						</path>
-					</svg>
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path
+					</path>
+				</svg>
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
 							d="M512 80c0 18.01-14.3 34.6-38.4 48-29.1 16.1-72.4 27.5-122.3 30.9-3.6-1.7-7.4-3.4-11.2-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98.01 128 80c0-44.18 85.1-80 192-80 106 0 192 35.82 192 80zm-351.3 81.1c10.2-.7 20.6-1.1 31.3-1.1 62.2 0 117.4 12.3 152.5 31.4 24.8 13.5 39.5 30.3 39.5 48.6 0 3.1-.7 7.9-2.1 11.7-4.6 13.2-17.8 25.3-35 35.6-.1 0-.3.1-.4.2-.3.2-.6.3-.9.5-35 19.4-90.8 32-153.6 32-59.6 0-112.94-11.3-148.16-29.1-1.87-1-3.69-2.8-5.45-2.9C14.28 274.6 0 258 0 240c0-34.8 53.43-64.5 128-75.4 10.5-1.6 21.4-2.8 32.7-3.5zm231.2 25.5c28.3-4.4 54.2-11.4 76.2-20.5 16.3-6.8 31.4-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9-14.7 7.4-32.4 13.6-52.4 18.4.1-1.7.2-3.5.2-5.3 0-21.9-10.6-39.9-24.1-53.4zM384 336c0 18-14.3 34.6-38.4 48-1.8.1-3.6 1.9-5.4 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.58-12.6-153.61-32C14.28 370.6 0 354 0 336v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 342.6 135.8 352 192 352c56.2 0 108.6-9.4 148.1-25.9 7.8-3.2 15.3-6.9 22.4-10.9 6.1-3.4 11.8-7.2 17.2-11.2 1.5-1.1 2.9-2.3 4.3-3.4V336zm32-57.9c18.1-5 36.5-9.5 52.1-16 16.3-6.8 31.4-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9-16.3 16.3-45 29.7-81.3 38.4.1-1.7.2-3.5.2-5.3v-57.9zM192 448c56.2 0 108.6-9.4 148.1-25.9 16.3-6.8 31.4-15.2 43.9-25.5V432c0 44.2-86 80-192 80C85.96 512 0 476.2 0 432v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 438.6 135.8 448 192 448z">
-						</path>
-					</svg>
-				</div>
-				<div class="header extended-weight">
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path
+					</path>
+				</svg>
+			</div>
+			<div class="header extended-weight">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
 							d="M232.5 5.171a56.026 56.026 0 0 1 47 0L498.1 106.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 145.8 0 137.3 0 127.1c0-8.5 5.437-17 13.93-20.9L232.5 5.171zM498.1 234.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 273.8 0 265.3 0 255.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0l152-70.2 53.2 24.6zM292.9 407.8l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 401.8 0 393.3 0 383.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0z">
-						</path>
-					</svg>
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path
+					</path>
+				</svg>
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
 							d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
-						</path>
-					</svg>
-				</div>
-				<div class="header reference">
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
-					</svg>
-				</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">18 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">18 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">18 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">18 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Treasure Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">19,446</div>
-				<div class="extended-weight">68.19 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					2.0 Carat Jade Gemstone
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">120</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">240</div>
-				<div class="extended-weight">0.02 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					2.75 carat Sapphire
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">325</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">650</div>
-				<div class="extended-weight">0.02 lb</div>
-				<div class="reference">B276</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					7.5 carat Tourmaline
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">1,078</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">2,156</div>
-				<div class="extended-weight">0.02 lb</div>
-				<div class="reference">B276</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					2 carat Ruby
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">210</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">420</div>
-				<div class="extended-weight">0.02 lb</div>
-				<div class="reference">B276</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Etching Kit in a Silver Plated Box
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2,600</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">2,600</div>
-				<div class="extended-weight">18 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					3 carat Topaz
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">370</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">740</div>
-				<div class="extended-weight">0.02 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Portable Shrine for a Dwarven Storm God
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">1,000</div>
-				<div class="weight">8 lb</div>
-				<div class="extended-value">1,000</div>
-				<div class="extended-weight">8 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Silver Bracelet
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">1,035</div>
-				<div class="weight">0.05 lb</div>
-				<div class="extended-value">1,035</div>
-				<div class="extended-weight">0.05 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Electrum Piercing
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">1,020</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">1,020</div>
-				<div class="extended-weight">0.01 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					1 carat piece of coral
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">0.01 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					1 carat jade
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">0.01 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Grooming Kit with carved pearl inlay and ivory accents
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">1,380</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">1,380</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					A small handful of tiny rubies
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">365</div>
-				<div class="weight">0.01 lb</div>
-				<div class="extended-value">365</div>
-				<div class="extended-weight">0.01 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Electrum plated cauldron
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">540</div>
-				<div class="weight">20 lb</div>
-				<div class="extended-value">540</div>
-				<div class="extended-weight">20 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Dwarven War God's High Holy Symbol
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">7,000</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">7,000</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference"></div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">388</div>
-				<div class="extended-weight">90 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">144</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Rations
-					<div class="item-notes">
-						
-						One meal
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">288</div>
-				<div class="extended-weight">72 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">118 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">200</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Rations
-					<div class="item-notes">
-						
-						One meal
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">400</div>
-				<div class="extended-weight">100 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">118 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">200</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Rations
-					<div class="item-notes">
-						
-						One meal
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">400</div>
-				<div class="extended-weight">100 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">118 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">200</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Rations
-					<div class="item-notes">
-						
-						One meal
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">400</div>
-				<div class="extended-weight">100 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">118 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">200</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Rations
-					<div class="item-notes">
-						
-						One meal
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">400</div>
-				<div class="extended-weight">100 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Wooden Tool Chest (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10. Half time required to locate item.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">120</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">1,582</div>
-				<div class="extended-weight">117.35 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">5</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Personal Basics
-					<div class="item-notes">
-						
-						Basic EQ for individual Survival
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">5</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">25</div>
-				<div class="extended-weight">5 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">5</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Bull's Eye Lantern
-					<div class="item-notes">
-						
-						6 hours on 1 pt of oil. 10 yd beam. Requires a hand.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">2 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">10 lb</div>
-				<div class="reference">DF1:26</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">12</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Timed Candle
-					<div class="item-notes">
-						
-						12 hours. Accurate to minutes.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">5</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">60</div>
-				<div class="extended-weight">12 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Dwarven Whetstone
-					<div class="item-notes">
-						
-						+1 damage for first blow after sharpening.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">500</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Hand Mirror
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">15</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">30</div>
-				<div class="extended-weight">2 lb</div>
-				<div class="reference">DF1:26</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Compass
-					<div class="item-notes">
-						
-						Basic EQ for Navigation
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">50</div>
-				<div class="weight">5 lb</div>
-				<div class="extended-value">50</div>
-				<div class="extended-weight">5 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Lockpicks
-					<div class="item-notes">
-						
-						Basic EQ for Lockpicking
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">50</div>
-				<div class="weight">0.1 lb</div>
-				<div class="extended-value">50</div>
-				<div class="extended-weight">0.1 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">5</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Caltrops, 1 hex
-					<div class="item-notes">
-						
-						Ready to deploy. Vision-2 to avoid, MoF hits. thr-3 imp (victim ST). Penetrating hits continue until removed (2 Ready)
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">5</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">25</div>
-				<div class="extended-weight">2.5 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Alchemist's Matches
-					<div class="item-notes">
-						
-						Tin of 50. Set fire to pack if dropped, 1 on 1d.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">15</div>
-				<div class="weight">0.25 lb</div>
-				<div class="extended-value">45</div>
-				<div class="extended-weight">0.75 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Shovel
-					<div class="item-notes">
-						
-						Speeds up digging
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">12</div>
-				<div class="weight">6 lb</div>
-				<div class="extended-value">12</div>
-				<div class="extended-weight">6 lb</div>
-				<div class="reference">B289</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">55</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Torch
-					<div class="item-notes">
-						
-						Burns for 1 hour, 2 yd.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">3</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">165</div>
-				<div class="extended-weight">55 lb</div>
-				<div class="reference">DF1:24</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Padded Wooden Potion Chest
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10. Half time required to locate item.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">120</div>
-				<div class="weight">20 lb</div>
-				<div class="extended-value">4,489</div>
-				<div class="extended-weight">53.5 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Soap, Liquid, Pint
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">20</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">20</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">LT36</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Soap, Solid, Bar
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">27</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">27</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">LT36</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">16</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Oil, Lantern, 1 Pint
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">2</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">32</div>
-				<div class="extended-weight">16 lb</div>
-				<div class="reference">DF1:24</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Holy Water
-					<div class="item-notes">
-						
-						&quot;Grenade&quot; bottle. 1 pt
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">15</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">45</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">DF1:26</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Alchemist's Fire
-					<div class="item-notes">
-						
-						2 yd radius 1d-1 burn on ground.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:28</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">6</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Glow Vial
-					<div class="item-notes">
-						
-						Drop in pill. 12 hour. 2yd.  Neck lanyard.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">30</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">180</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">DF1:28</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Great Healing Potion
-					<div class="item-notes">
-						
-						Potion. 4d HP.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">1,000</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">1,000</div>
-				<div class="extended-weight">0.5 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Major Healing Potion
-					<div class="item-notes">
-						
-						Potion. 2d HP.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">350</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">700</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Minor Healing Potion
-					<div class="item-notes">
-						
-						Potion. 1d HP.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">120</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">360</div>
-				<div class="extended-weight">1.5 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Liquid Ice
-					<div class="item-notes">
-						
-						Grenade. Armor provides 1/5 DR.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">250</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">2 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Fire Resistance Potion
-					<div class="item-notes">
-						
-						Potion. Immunity to fire damage. 1d hours
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">500</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">500</div>
-				<div class="extended-weight">0.5 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Paut
-					<div class="item-notes">
-						
-						Potion. 4 FP (Magic).
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">135</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">405</div>
-				<div class="extended-weight">1.5 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Alchemical Antidote
-					<div class="item-notes">
-						
-						Potion. Negates all Potions.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">400</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">400</div>
-				<div class="extended-weight">0.5 lb</div>
-				<div class="reference">DF1:29</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Demon's Brew
-					<div class="item-notes">
-						
-						Grenade. 2 yd radius. Respiratory Agent.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:28</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">1,575</div>
-				<div class="extended-weight">118 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Barber's Kit
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">LT148</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">5</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Rope, 3/4&quot;, 10 yd
-					<div class="item-notes">
-						
-						Supports 1,100 lb
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">25</div>
-				<div class="weight">5 lb</div>
-				<div class="extended-value">125</div>
-				<div class="extended-weight">25 lb</div>
-				<div class="reference">DF1:24</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Blanket
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">20</div>
-				<div class="weight">4 lb</div>
-				<div class="extended-value">60</div>
-				<div class="extended-weight">12 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Canteen
-					<div class="item-notes">
-						
-						Holds 1 qt of liquid
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">10</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">10</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Tent, 2-Man
-					<div class="item-notes">
-						
-						Includes ropes; requires one 6' pole
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">80</div>
-				<div class="weight">12 lb</div>
-				<div class="extended-value">80</div>
-				<div class="extended-weight">12 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Tent, 2-Man
-					<div class="item-notes">
-						
-						Includes ropes; requires one 6' pole
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">80</div>
-				<div class="weight">12 lb</div>
-				<div class="extended-value">80</div>
-				<div class="extended-weight">12 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Crowbar
-					<div class="item-notes">
-						
-						Treat as Mace, -1 to Skill
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">20</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">20</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">DF1:24</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Pickaxe
-					<div class="item-notes">
-						
-						May get stuck. Improves digging speed; -1 to Skill to attack
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">3</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">70</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">70</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">DF1:24</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					First Aid Kit
-					<div class="item-notes">
-						
-						+1 to First Aid
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">50</div>
-				<div class="weight">2 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">4 lb</div>
-				<div class="reference">DF1:24</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Canteen
-					<div class="item-notes">
-						
-						Holds 1 qt of liquid
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">10</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">10</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Grapnel
-					<div class="item-notes">
-						
-						Throw to ST&#215;2 yd. 300 lb.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">80</div>
-				<div class="weight">2 lb</div>
-				<div class="extended-value">240</div>
-				<div class="extended-weight">6 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Potion Belt
-					<div class="item-notes">
-						
-						4 bottles/8 vials. Ready/Fast-Draw. +2 DR for contents.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">60</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">60</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Potion Belt
-					<div class="item-notes">
-						
-						4 bottles/8 vials. Ready/Fast-Draw. +2 DR for contents.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">60</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">60</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Bandoleer
-					<div class="item-notes">
-						
-						6 lb thrown weapons; Wearer can reach with Ready or Fast-Draw
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">60</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">60</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Backpack, Frame
-					<div class="item-notes">
-						
-						Holds 100 lbs of gear
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">10 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">10 lb</div>
-				<div class="reference">DF1:23</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Quick-Release Backpack
-					<div class="item-notes">
-						
-						40 lb. Drop as Free Action. Fragile items break on 1 on 1d.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">300</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">300</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">DF1:25</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Chest, Wooden (Small)
-					<div class="item-notes">
-						
-						Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">18 lb</div>
-				<div class="extended-value">1,440</div>
-				<div class="extended-weight">118 lb</div>
-				<div class="reference">DF8:20</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">6</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Wooden Stake
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">4</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">24</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">LT64</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Trumpet
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">200</div>
-				<div class="weight">2 lb</div>
-				<div class="extended-value">200</div>
-				<div class="extended-weight">2 lb</div>
-				<div class="reference">LT49</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">4</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Splints, Leg
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">50</div>
-				<div class="weight">2 lb</div>
-				<div class="extended-value">200</div>
-				<div class="extended-weight">8 lb</div>
-				<div class="reference">LT146</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">4</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Splints, Arm
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">25</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">4 lb</div>
-				<div class="reference">LT146</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">3</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Short Spear
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">30</div>
-				<div class="weight">2 lb</div>
-				<div class="extended-value">90</div>
-				<div class="extended-weight">6 lb</div>
-				<div class="reference">LT62</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">6</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Small Throwing Knife
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">30</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">180</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">LT75</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Whip, 2 yd
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">40</div>
-				<div class="weight">4 lb</div>
-				<div class="extended-value">40</div>
-				<div class="extended-weight">4 lb</div>
-				<div class="reference">LT64</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Melee Net
-					<div class="item-notes">
-						
-						May entangle or ensnare the target; see Special Ranged Weapons (pp. B410-411) and Cloaks (p. B404); A net has no 1/2D range. Max range is (ST + Skill/5) for a melee net
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">20</div>
-				<div class="weight">5 lb</div>
-				<div class="extended-value">20</div>
-				<div class="extended-weight">5 lb</div>
-				<div class="reference">LT59</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Litter
-					<div class="item-notes">
-						
-						Requires two porters
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">25 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">25 lb</div>
-				<div class="reference">LT136</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Litter
-					<div class="item-notes">
-						
-						Requires two porters
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">100</div>
-				<div class="weight">25 lb</div>
-				<div class="extended-value">100</div>
-				<div class="extended-weight">25 lb</div>
-				<div class="reference">LT136</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Board Games
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">40</div>
-				<div class="weight">3 lb</div>
-				<div class="extended-value">40</div>
-				<div class="extended-weight">3 lb</div>
-				<div class="reference">LT39</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Cards
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">3</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">50</div>
-				<div class="weight">0.5 lb</div>
-				<div class="extended-value">50</div>
-				<div class="extended-weight">0.5 lb</div>
-				<div class="reference">LT40</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Dice
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">6</div>
-				<div class="weight">0 lb</div>
-				<div class="extended-value">6</div>
-				<div class="extended-weight">0 lb</div>
-				<div class="reference">LT39</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Axe
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">50</div>
-				<div class="weight">4 lb</div>
-				<div class="extended-value">50</div>
-				<div class="extended-weight">4 lb</div>
-				<div class="reference">LT54</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">2</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Dagger
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">1</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">20</div>
-				<div class="weight">0.25 lb</div>
-				<div class="extended-value">40</div>
-				<div class="extended-weight">0.5 lb</div>
-				<div class="reference">LT56</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Large Knife
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">0</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">40</div>
-				<div class="weight">1 lb</div>
-				<div class="extended-value">40</div>
-				<div class="extended-weight">1 lb</div>
-				<div class="reference">LT58</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">1</div>
-				<div class="desc" style="padding-left: calc(20px * 1 + 4px)">
-					Harpoon
-					<div class="item-notes">
-						
-						Tethered. See pp. B276, B411.
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level">2</div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">60</div>
-				<div class="weight">6 lb</div>
-				<div class="extended-value">60</div>
-				<div class="extended-weight">6 lb</div>
-				<div class="reference">LT72</div>
-				
-				<div class="entry-parent" readonly></div>
-				<div class="quantity">4</div>
-				<div class="desc" style="padding-left: calc(20px * 0 + 4px)">
-					Pole, 10'
-					<div class="item-notes">
-						
-						
-					</div>
-				</div>
-				<div class="uses max0">0</div>
-				<div class="tech-level"></div>
-				<div class="legality-class LC4: Open"></div>
-				<div class="value">8</div>
-				<div class="weight">5 lb</div>
-				<div class="extended-value">32</div>
-				<div class="extended-weight">20 lb</div>
-				<div class="reference">DF1:24</div>
-				
+					</path>
+				</svg>
 			</div>
-			<div id="notes">
-				<div class="header entry-parent" readonly></div>
-				<div class="header desc">Note</div>
-				<div class="header reference">
-					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-						<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
-					</svg>
-				</div>
-				
+			<div class="header reference">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
+				</svg>
 			</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">18 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">18 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">18 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">18 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">18 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">372</div>
+			<div class="extended-weight">86 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">136</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Rations
+				<div class="item-notes"></div>
+				<div class="item-notes">One meal</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">2</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">272</div>
+			<div class="extended-weight">68 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">118 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">200</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Rations
+				<div class="item-notes"></div>
+				<div class="item-notes">One meal</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">2</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">400</div>
+			<div class="extended-weight">100 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">118 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">200</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Rations
+				<div class="item-notes"></div>
+				<div class="item-notes">One meal</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">2</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">400</div>
+			<div class="extended-weight">100 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">118 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">200</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Rations
+				<div class="item-notes"></div>
+				<div class="item-notes">One meal</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">2</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">400</div>
+			<div class="extended-weight">100 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">118 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">200</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Rations
+				<div class="item-notes"></div>
+				<div class="item-notes">One meal</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">2</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">400</div>
+			<div class="extended-weight">100 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Wooden Tool Chest (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10. Half time required to locate item.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">120</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">1582</div>
+			<div class="extended-weight">117.35 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">5</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Personal Basics
+				<div class="item-notes"></div>
+				<div class="item-notes">Basic EQ for individual Survival</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">5</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">25</div>
+			<div class="extended-weight">5 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">5</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Bull&#39;s Eye Lantern
+				<div class="item-notes"></div>
+				<div class="item-notes">6 hours on 1 pt of oil. 10 yd beam. Requires a hand.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">2 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">10 lb</div>
+			<div class="reference">DF1:26</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">12</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Timed Candle
+				<div class="item-notes"></div>
+				<div class="item-notes">12 hours. Accurate to minutes.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">5</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">60</div>
+			<div class="extended-weight">12 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Dwarven Whetstone
+				<div class="item-notes"></div>
+				<div class="item-notes">&#43;1 damage for first blow after sharpening.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">500</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">2</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Hand Mirror
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">15</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">30</div>
+			<div class="extended-weight">2 lb</div>
+			<div class="reference">DF1:26</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Compass
+				<div class="item-notes"></div>
+				<div class="item-notes">Basic EQ for Navigation</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">50</div>
+			<div class="weight">5 lb</div>
+			<div class="extended-value">50</div>
+			<div class="extended-weight">5 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Lockpicks
+				<div class="item-notes"></div>
+				<div class="item-notes">Basic EQ for Lockpicking</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">50</div>
+			<div class="weight">0.1 lb</div>
+			<div class="extended-value">50</div>
+			<div class="extended-weight">0.1 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">5</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Caltrops, 1 hex
+				<div class="item-notes"></div>
+				<div class="item-notes">Ready to deploy. Vision-2 to avoid, MoF hits. thr-3 imp (victim ST). Penetrating hits continue until removed (2 Ready)</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">5</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">25</div>
+			<div class="extended-weight">2.5 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">3</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Alchemist&#39;s Matches
+				<div class="item-notes"></div>
+				<div class="item-notes">Tin of 50. Set fire to pack if dropped, 1 on 1d.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">15</div>
+			<div class="weight">0.25 lb</div>
+			<div class="extended-value">45</div>
+			<div class="extended-weight">0.75 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Shovel
+				<div class="item-notes"></div>
+				<div class="item-notes">Speeds up digging</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">12</div>
+			<div class="weight">6 lb</div>
+			<div class="extended-value">12</div>
+			<div class="extended-weight">6 lb</div>
+			<div class="reference">B289</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">55</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Torch
+				<div class="item-notes"></div>
+				<div class="item-notes">Burns for 1 hour, 2 yd.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">3</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">165</div>
+			<div class="extended-weight">55 lb</div>
+			<div class="reference">DF1:24</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Padded Wooden Potion Chest
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10. Half time required to locate item.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">120</div>
+			<div class="weight">20 lb</div>
+			<div class="extended-value">3739</div>
+			<div class="extended-weight">48 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Soap, Liquid, Pint
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">20</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">20</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">LT36</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Soap, Solid, Bar
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">27</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">27</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">LT36</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">16</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Oil, Lantern, 1 Pint
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">2</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">32</div>
+			<div class="extended-weight">16 lb</div>
+			<div class="reference">DF1:24</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">6</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Glow Vial
+				<div class="item-notes"></div>
+				<div class="item-notes">Drop in pill. 12 hour. 2yd.  Neck lanyard.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">30</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">180</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">DF1:28</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Great Healing Potion
+				<div class="item-notes"></div>
+				<div class="item-notes">Potion. 4d HP.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">1000</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">1000</div>
+			<div class="extended-weight">0.5 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Major Healing Potion
+				<div class="item-notes"></div>
+				<div class="item-notes">Potion. 2d HP.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">350</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">350</div>
+			<div class="extended-weight">0.5 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">2</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Minor Healing Potion
+				<div class="item-notes"></div>
+				<div class="item-notes">Potion. 1d HP.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">120</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">240</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">2</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Liquid Ice
+				<div class="item-notes"></div>
+				<div class="item-notes">Grenade. Armor provides 1/5 DR.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">250</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">2 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Fire Resistance Potion
+				<div class="item-notes"></div>
+				<div class="item-notes">Potion. Immunity to fire damage. 1d hours</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">500</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">500</div>
+			<div class="extended-weight">0.5 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">2</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Paut
+				<div class="item-notes"></div>
+				<div class="item-notes">Potion. 4 FP (Magic).</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">135</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">270</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Alchemical Antidote
+				<div class="item-notes"></div>
+				<div class="item-notes">Potion. Negates all Potions.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">400</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">400</div>
+			<div class="extended-weight">0.5 lb</div>
+			<div class="reference">DF1:29</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Demon&#39;s Brew
+				<div class="item-notes"></div>
+				<div class="item-notes">Grenade. 2 yd radius. Respiratory Agent.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:28</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">1575</div>
+			<div class="extended-weight">118 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Barber&#39;s Kit
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">3 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">LT148</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">5</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Rope, 3/4&#34;, 10 yd
+				<div class="item-notes"></div>
+				<div class="item-notes">Supports 1,100 lb</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">25</div>
+			<div class="weight">5 lb</div>
+			<div class="extended-value">125</div>
+			<div class="extended-weight">25 lb</div>
+			<div class="reference">DF1:24</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">3</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Blanket
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">20</div>
+			<div class="weight">4 lb</div>
+			<div class="extended-value">60</div>
+			<div class="extended-weight">12 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Canteen
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 1 qt of liquid</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">10</div>
+			<div class="weight">3 lb</div>
+			<div class="extended-value">10</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Tent, 2-Man
+				<div class="item-notes"></div>
+				<div class="item-notes">Includes ropes; requires one 6&#39; pole</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">80</div>
+			<div class="weight">12 lb</div>
+			<div class="extended-value">80</div>
+			<div class="extended-weight">12 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Tent, 2-Man
+				<div class="item-notes"></div>
+				<div class="item-notes">Includes ropes; requires one 6&#39; pole</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">80</div>
+			<div class="weight">12 lb</div>
+			<div class="extended-value">80</div>
+			<div class="extended-weight">12 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Crowbar
+				<div class="item-notes"></div>
+				<div class="item-notes">Treat as Mace, -1 to Skill</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">20</div>
+			<div class="weight">3 lb</div>
+			<div class="extended-value">20</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">DF1:24</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Pickaxe
+				<div class="item-notes"></div>
+				<div class="item-notes">May get stuck. Improves digging speed; -1 to Skill to attack</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">3</div>
+			<div class="legality-class "></div>
+			<div class="value">70</div>
+			<div class="weight">3 lb</div>
+			<div class="extended-value">70</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">DF1:24</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">2</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				First Aid Kit
+				<div class="item-notes"></div>
+				<div class="item-notes">&#43;1 to First Aid</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">50</div>
+			<div class="weight">2 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">4 lb</div>
+			<div class="reference">DF1:24</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Canteen
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 1 qt of liquid</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">10</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">10</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">3</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Grapnel
+				<div class="item-notes"></div>
+				<div class="item-notes">Throw to ST×2 yd. 300 lb.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">80</div>
+			<div class="weight">2 lb</div>
+			<div class="extended-value">240</div>
+			<div class="extended-weight">6 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Potion Belt
+				<div class="item-notes"></div>
+				<div class="item-notes">4 bottles/8 vials. Ready/Fast-Draw. &#43;2 DR for contents.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">60</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">60</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Potion Belt
+				<div class="item-notes"></div>
+				<div class="item-notes">4 bottles/8 vials. Ready/Fast-Draw. &#43;2 DR for contents.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">60</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">60</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Bandoleer
+				<div class="item-notes"></div>
+				<div class="item-notes">6 lb thrown weapons; Wearer can reach with Ready or Fast-Draw</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">60</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">60</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Backpack, Frame
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs of gear</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">10 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">10 lb</div>
+			<div class="reference">DF1:23</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Quick-Release Backpack
+				<div class="item-notes"></div>
+				<div class="item-notes">40 lb. Drop as Free Action. Fragile items break on 1 on 1d.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">300</div>
+			<div class="weight">3 lb</div>
+			<div class="extended-value">300</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">DF1:25</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Chest, Wooden (Small)
+				<div class="item-notes"></div>
+				<div class="item-notes">Holds 100 lbs. or 2 cubic feet of loot. Has brackets for two poles; add Basic Lift of carriers to assess encumbrance. DR 1, HP 10</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">18 lb</div>
+			<div class="extended-value">1440</div>
+			<div class="extended-weight">118 lb</div>
+			<div class="reference">DF8:20</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">6</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Wooden Stake
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">4</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">24</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">LT64</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Trumpet
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">200</div>
+			<div class="weight">2 lb</div>
+			<div class="extended-value">200</div>
+			<div class="extended-weight">2 lb</div>
+			<div class="reference">LT49</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">4</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Splints, Leg
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">50</div>
+			<div class="weight">2 lb</div>
+			<div class="extended-value">200</div>
+			<div class="extended-weight">8 lb</div>
+			<div class="reference">LT146</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">4</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Splints, Arm
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">25</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">4 lb</div>
+			<div class="reference">LT146</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">3</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Short Spear
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">30</div>
+			<div class="weight">2 lb</div>
+			<div class="extended-value">90</div>
+			<div class="extended-weight">6 lb</div>
+			<div class="reference">LT62</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">6</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Small Throwing Knife
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">30</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">180</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">LT75</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Whip, 2 yd
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">40</div>
+			<div class="weight">4 lb</div>
+			<div class="extended-value">40</div>
+			<div class="extended-weight">4 lb</div>
+			<div class="reference">LT64</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Melee Net
+				<div class="item-notes"></div>
+				<div class="item-notes">May entangle or ensnare the target; see Special Ranged Weapons (pp. B410-411) and Cloaks (p. B404); A net has no 1/2D range. Max range is (ST &#43; Skill/5) for a melee net</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">20</div>
+			<div class="weight">5 lb</div>
+			<div class="extended-value">20</div>
+			<div class="extended-weight">5 lb</div>
+			<div class="reference">LT59</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Litter
+				<div class="item-notes"></div>
+				<div class="item-notes">Requires two porters</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">25 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">25 lb</div>
+			<div class="reference">LT136</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Litter
+				<div class="item-notes"></div>
+				<div class="item-notes">Requires two porters</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">100</div>
+			<div class="weight">25 lb</div>
+			<div class="extended-value">100</div>
+			<div class="extended-weight">25 lb</div>
+			<div class="reference">LT136</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Board Games
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">40</div>
+			<div class="weight">3 lb</div>
+			<div class="extended-value">40</div>
+			<div class="extended-weight">3 lb</div>
+			<div class="reference">LT39</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Cards
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">3</div>
+			<div class="legality-class "></div>
+			<div class="value">50</div>
+			<div class="weight">0.5 lb</div>
+			<div class="extended-value">50</div>
+			<div class="extended-weight">0.5 lb</div>
+			<div class="reference">LT40</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Dice
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">6</div>
+			<div class="weight">0 lb</div>
+			<div class="extended-value">6</div>
+			<div class="extended-weight">0 lb</div>
+			<div class="reference">LT39</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Axe
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">50</div>
+			<div class="weight">4 lb</div>
+			<div class="extended-value">50</div>
+			<div class="extended-weight">4 lb</div>
+			<div class="reference">LT54</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">2</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Dagger
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">1</div>
+			<div class="legality-class "></div>
+			<div class="value">20</div>
+			<div class="weight">0.25 lb</div>
+			<div class="extended-value">40</div>
+			<div class="extended-weight">0.5 lb</div>
+			<div class="reference">LT56</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Large Knife
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">40</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">40</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">LT58</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(1 * 20px + 4px)">
+				Harpoon
+				<div class="item-notes"></div>
+				<div class="item-notes">Tethered. See pp. B276, B411.</div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">2</div>
+			<div class="legality-class "></div>
+			<div class="value">60</div>
+			<div class="weight">6 lb</div>
+			<div class="extended-value">60</div>
+			<div class="extended-weight">6 lb</div>
+			<div class="reference">LT72</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">4</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Pole, 10&#39;
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">8</div>
+			<div class="weight">5 lb</div>
+			<div class="extended-value">32</div>
+			<div class="extended-weight">20 lb</div>
+			<div class="reference">DF1:24</div>
+			
 		</div>
-		<div id="footer">
-			<div class="left">GCS is copyrighted &copy;1998-2022 by Richard A. Wilkes. All rights reserved</div>
-			<div class="centre">Base Camp Supplies</div>
-			<div class="right"><a href="https://gurpscharactersheet.com/">gurpscharactersheet.com</a></div>
-		</div>
+		
+		
 	</div>
+	<div id="footer">
+		<div class="left">GCS is copyrighted &copy;1998-2023 by Richard A. Wilkes</div>
+		<div class="center primary">Base Camp Supplies</div>
+		<div class="right">Modified Feb  5, 2025, 1:13 PM</div>
+		<div class="left">All rights reserved</div>
+		<div class="center"><a href="https://gurpscharactersheet.com/">gurpscharactersheet.com</a></div>
+		<div class="right">Created Jul  9, 2022, 9:49 PM</div>
+	</div>
+</div>
 </body>
 
 </html>
