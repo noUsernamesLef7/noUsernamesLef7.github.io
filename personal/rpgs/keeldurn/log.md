@@ -1,12 +1,38 @@
 ---
 layout: default
-date: 2025-02-05
+date: 2025-02-06
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 3
+**2025-02-05**
+* Moved from running the game in Tabletop Simulator to Foundry w/Gurps 4e unofficial module.
+* Colin and Yui return from the base camp and rejoin the party.
+* The group proceeds cautiously, wary for more traps.
+* A few minor treasures are collected, mainly by Father Esser who proves to have a knack for sniffing out treasure. Notably:
+    * A clay tablet, with inscription
+    * A scroll with magenta writing
+* Yui finds a rapier hidden in a coffin, that seems to have an excited energy about it.
+* Father Esser spots a spear trap and it is successfully triggered to render it harmless.
+* Coming upon a locked door and unsuccessfully attempting to batter it down, it is instead decided to burn through it.
+* This burning is repeated on the next locked door.
+* The next door is sadly inflammable stone.
+* Fortunately, Royce came prepared. He pulls out his dwarven pickaxe and cuts a slot in the edge of the door big enough for a prybar to find purchase.
+* It takes the entire parties combined strength prying on the crowbar to break apart the heavy bar on the far side of the door and admit them into a room filled with glistening treasures!
+* It was revealed to Father Esser by his god that the room contained some object which seemed to be emitting a projectile capture field, that would reverse the momentum of any projectile in the room.
+* He was also able to discern that the sarcophagi in the room containing a corpse had traces of a final rest spell, preserving the body.
+* The party continued on, spotting and bypassing more traps.
+* Exploring more dark corridors, the party came upon a room guarded by skeleton archers and a huge puddle of dissolved corpses.
+* The slime in the puddle suddenly inflated, knocking back several members of the party and injuring some.
+* Colin rushed in and singlehandedly destroyed both skeletons.
+* Yui opted for a strategy of hurling various concotions at the slime after finding that physical attacks didn't seem to be getting anywhere fast. A black potion was thrown in and sank with no apparent affect.
+* Next, a bottle of alchemists fire was smashed next to the puddle, and flowing over the surface of the slime burned much of it away.
+* She decided to continue on this track and dumped a good quantity of lamp oil over the surface of it to continue fueling the flames.
+* Two bottles of lamp oil later, the slime had been mostly evaporated and was reduced to a rubbery solid in the bottom of its hole.
 
 ### Session 2
 **2025-01-29**

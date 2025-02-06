@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2025-02-05
+date: 2025-02-06
 author: Jason Brown
 title: Keeldurn Mountains Expedition Status
 
@@ -23,6 +23,7 @@ Impossible to keep accurate time, but judging by sleep intervals it is *day 4*.
 * Father Esser
 * Colin the Warrior
 * ~~Gwynedd Ap Awain~~ RIP
+    * Last words: "I love stepping in dust."
 
 ### Base Camp
 * Billy the Torchbearer
