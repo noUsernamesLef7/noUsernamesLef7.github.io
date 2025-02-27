@@ -1,12 +1,34 @@
 ---
 layout: default
-date: 2025-02-06
+date: 2025-02-25
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 4
+**2025-02-25**
+* The party searched the last two rooms in the southernmost section of the dungeon, avoiding the spike pit.
+    * Royce found a wand that turned out to be an aid to necromantic spellcasting
+    * Father Esser is not amused.
+* The group then backtracked to last unexplored room, the one with a stream flowing through it.
+* Colin opened a sarcophagi and a flying skull zipped out and chomped his arm
+* The skull then swooped across the room, diving at Yui.
+    * A mummified dwarf zombie was also inside, wielding a great axe
+* Yui dealt a psychic punch as it flew, and Royce was able to swat it out of the air with his shield as it passed him.
+* Yui punched the dwarf so hard the reanimation failed and it collapsed.
+* The party was able to safely trigger an entrapment trap and discover a shortcut back to the beginning of the dungeon.
+* With the crypt now fully explored, the party returned to base camp and sent the porters to recover the treasure.
+* While the hauling progressed, Father Esser appealed to Sarenrae who revealed to him the magical nature of several items
+* Yui continued training Billy in the finer points of Karate. The results of this training may not be what you'd expect... (Teaching critical failure)
+* Father Esser while seeking solitude, stumbled upon Tymmy the stowaway thief in an unused room in the base camp building.
+* Tymmy is introduced to the party, and causes significant mischief.
+    * Tymmy steals Esser's rations from his pack
+    * He also snags Old Man Lew's mushroom pouch and hides it amongst Yui's belongings.
+* After relaxing for the "evening," the group enjoys a refreshing nights sleep.
+* They start the day fresh and ready to follow up on the next of their leads.
 
 ### Session 3
 **2025-02-05**
