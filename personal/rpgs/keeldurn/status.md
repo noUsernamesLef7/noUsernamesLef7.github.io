@@ -22,6 +22,7 @@ Impossible to keep accurate time, but judging by sleep intervals it is *day 5*.
 * Royce
 * Father Esser
 * Colin the Warrior
+* Tymmy
 * ~~Gwynedd Ap Awain~~ RIP
     * Last words: "I love stepping in dust."
 

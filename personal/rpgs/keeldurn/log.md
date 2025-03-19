@@ -1,12 +1,57 @@
 ---
 layout: default
-date: 2025-02-25
+date: 2025-03-05
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 5
+**2025-03-05**
+* Tymmy returns Old Man Lews mushrooms, pretending to retrieve them from Yui's pack.
+* Father Esser finds a potion missing from his backpack and determines that a scroll contained within hungers for items
+* The party set out to explore the mushroom farming tunnel
+* The party cautiously enters the dining hall and examined the signs of previous camps.
+	* They speculated about what kind of creatures may have been here.
+	* Suspects include Goblins and Kobolds
+    * Notable graffiti on the table surfaces included:
+        * "Gobton boys here"
+        * "Kregg Krew"
+        * "Crushroom taste bad"
+        * "Kleebles died here" next to a dark stain on the stone
+* The party heard some odd sounds coming from the direction of the workshops, so decided to investigate there first.
+* Tymmy scouted ahead and identified the tool storage room along with the machinery room
+    * Exploring the machinery room and with some help from the Dwarven cultural consultant, the party located two control ports for the machine operating here
+    * Rotating the top keyhole fully left caused the pitch of the operating machine to slow, and then lurch to a stop.
+    * After shutting down the machine, the party opened the access panel and inspected the compartment inside, finding a metal shaft with a flat disc at either end concealing the rest of the machine.
+* Tymmy finds a large silver coin and a ring in the well
+    * The coin was given to colin as a gesture of good will, "because he's nice"
+* The party exited the machine room and noted that the sounds of water trickling down the stairs had stopped.
+* The party returned to the tool storage room
+    * Father Esser was examining the pile of tools in the middle of the room when a swarm of leeches lept from the water
+    * One latched to his face, two on his hand
+    * The party scrambles to aid him as he attempts to pluck the leeches from his body
+    * Yui telekinetically crushes the one on his face
+    * Esser smashes one on his hand, and it sprays his blood into the air getting into Yui's eyes
+    * Colin grasps the last one and rips it free (liberating a small chunk of skin with it) then crushes it, carefully shielding it as it pops
+* The group continues on into the massive growing chambers
+* They investigate and taste the pale yellow mushrooms here and observe the glittering gold spores.
+* Moving on to a second chamber to the west and lured in by a bioluminescent glow, they find blue glowing mushrooms
+    * Yui peeks into the room and attempts to telekinetically grab a mushroom
+    * Upon plucking it, the mushroom bursts and causes the other mushrooms from its patch to also burst
+    * Yui is blasted with glowing spores
+* Tymmy placed a trap in the South passage between chamber 1 and 2.
+* The party advanced along the length of this chamber
+* A giant, child-sized rat was spotted wandering ahead of them.
+    * Tymmy took careful aim with his crossbow and fired a bolt directly through the rats brain killing it instantly
+* At the far end of the chamber, the party took a passage back into what they suspected was the far end of the first chamber
+* Here, they elected to use the upward stairs to hopefully get free of the water for a time
+    * Finding it dark at the top, Billy led forward to illuminate the chamber
+    * The party found it to be full of enormous, person-sized mushrooms
+    * Tymmy, feeling suspicious, sinks a crossbow bolt into a random mushroom to see if it reacts
+    * It doesn't. Two other nearby stalks of fungal fruit however, do react, and begin to turn and shuffle towards the party!
 
 ### Session 4
 **2025-02-25**
