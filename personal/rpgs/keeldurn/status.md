@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2025-02-06
+date: 2025-04-09
 author: Jason Brown
 title: Keeldurn Mountains Expedition Status
 
@@ -22,6 +22,7 @@ Impossible to keep accurate time, but judging by sleep intervals it is *day 5*.
 * Royce
 * Father Esser
 * Colin the Warrior
+    * Crippled by a crushroom. Not technically dead...
 * Tymmy
 * ~~Gwynedd Ap Awain~~ RIP
     * Last words: "I love stepping in dust."
