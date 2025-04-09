@@ -1,12 +1,44 @@
 ---
 layout: default
-date: 2025-03-05
+date: 2025-04-09
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 6
+**2025-03-19**
+* The crushrooms shamble into action and the ready party meets them
+* Billy draws courage from his karate training and shouts "Ignite the spirit within!" while lighting a torch and charging in to attack
+	* He attacks with his signature "inferno punch!", thrusting the blazing torch at the monster and missing badly
+	* The monster then raises it's long fibrous tendrils and lunges to grab hold of him
+* Yui courageously dives in front of Billy and is entangled in the tentacles rather than him
+	* Yui struggles as the monster raises her above it's head and tries to maneuver her into the awaiting maw
+	* The rest of the party frantically begins hacking and slashing at the monster
+	* Yui manages to wriggle just enough that only her right arm is forced into the opening in the mushroom cap
+	* Colin sidesteps the second crushroom as it lumbers toward him and unleashes a flurry of slashes with his glaive on the creature holding Yui
+	* Just as the monster begins to constrict and the pain begins to build in Yui's arm, it goes limp and falls to the floor sending her sprawling
+* Colin unfortunately has stuck his neck out for Yui a bit too far
+	* The second crushroom grabs him as he is focused on his attack and stuffs him into it's mouth-like opening up to his chest
+	* The rest of the vanguard, including the quickly recovered Yui, rush to his aid
+	* They slice, slash, and chop at the fungal fibers but to no avail as it begins squeezing in on him.
+		* Even Chrissy and Ovouster lend aid in hacking apart the beast
+	* They do tremendous damage leaving great rends in the stalk and cap, but it continues to crush
+	* Colin is clearly having the life squeezed out of him as his armor distorts and bones break
+	* It appears he is all but dead as he gurgles, blood drips from the corners of his mouth, and foams pink around his nostrils
+* At what seems the last possible moment, the monster has been slashed up so thoroughly there is no longer enough structure to support it and it collapses
+* Everyone rushes to see what can be done to save Colin
+* Father Esser, aided by Yui, performs a miraculous feat of first aid and manages to tie off Colins legs before he can die of arterial bleeding
+	* He then double barrel shotguns two jars of paut and casts Healing Slumber on Colin
+* Billy agrees to quench the flames from within for now and apologizes to Yui for forcing her to almost sacrifice her life
+* Father Esser improvises a stretcher
+* Yui telekinetically carries the stretcher back to the base camp
+* The party spends two hours at camp
+	* Royce pours a major healing potion down Colins throat
+	* Further first aid is carried out
+* Father Esser attempts another major healing and succeeds
 
 ### Session 5
 **2025-03-05**

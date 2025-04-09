@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2021-08-14
+date: 2025-04-09
 author: Jason Brown
 title: The Keeldurn Mountain Expedition
 
@@ -8,6 +8,7 @@ title: The Keeldurn Mountain Expedition
 
 * [Expedition Status](./status)
 * [Adventure Log](./log)
+* [Quote Wall](./quotes)
 
 ## Story
 
