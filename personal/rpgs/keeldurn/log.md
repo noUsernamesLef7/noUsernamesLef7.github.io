@@ -1,12 +1,45 @@
 ---
 layout: default
-date: 2025-04-09
+date: 2025-04-14
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 7
+**2025-04-09**
+* Godwin spots an armored dwarf enter a building, and Yui leads Billy and Tymmy
+	* Yui and Tymmy introduce themselves in their own ways
+	* The dwarf introduces himself as Zundred Son of Zundrthen The Silvered Axe of the Thorn Tribe
+	* Zundred shares that he is looking for things to tinker with, so Yui offers him to come and join the party in their exploration
+* The group accompanies Zundred (ZunZun) back to the base camp
+* Zundred is introduced to the rest of the party
+* Old man Lew faints at the shocking (to him) news that the Thorn Tribe had fallen to infighting.
+* Esser is busily attending to Colin and opts to stay behind while the rest of the party returns to the farming village
+* The party travels to the village
+* Entering the kitchen, they quickly find the magically self-heating soup pot
+* Zundred uncovers the trapdoor into the flooded cellar
+	* Royce dives down and using a torch and soup pot as a light, manages to glimpse an interesting box in the brief moment of brightness
+	* He hauls it to the surface and Zundred experiments with it for a few moments before determining it makes things cold
+	* Zundred titles it: Rheefrigouratour, after the coldest bitch he knows
+* The group moves on to the dormitory
+	* Ovouster steps in a puddle of goo that, partially melts her boots and burns her skin
+	* Royce melts one of his shoes entirely trying to find the goo again and simply decides to take them both off
+	* Royce collects 1 qt of the acidic goo in a glass bottle, which seems unreactive to it.
+* The group split up and began giving the rooms a cursory search and collecting valuables and items of interest, taking about an hour total
+* During the search, Zundred came upon a room and during his search, something unconcious seemed different
+	* A primitive danger instinct kept him from reaching under the bed and he called in Royce and Yui
+	* Yui telekinetically flipped the bed and uncovered a nest of water moccasins, now angry and confused
+	* Royce reacting quickly chopped on the coiled mass of snakes with his great axe, severing most of them in one or more places
+	* Zundred slammed his hammer down stunning most of the survivors and splashing snakes, whole and partial about the room
+	* Yui grabbed a mass of them with her TK powers and crushed them mid-air
+	* The snakes in utter disarray were unable to do anything but slowly collect themselves as the party retreated into the hallway and blocked the doorway
+* The group then moved on to the chapel at the end of the hall, just as Father Esser arrived to rejoin them
+	* The flooded chapel notably had a raised dais with an altar
+	* Lying next to the altar was the charred bones, melted armor, and thoroughly rusty longsword of a human adventurer
+	* Atop the altar the group found 6 bottles of water and determined the contents to be unholy water
 
 ### Session 6
 **2025-03-19**
