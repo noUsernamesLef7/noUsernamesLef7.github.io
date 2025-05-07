@@ -1,12 +1,75 @@
 ---
 layout: default
-date: 2025-04-14
+date: 2025-05-06
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 8
+**2025-04-25**
+* The party gathers on the dais in the village chapel for a quick rest and to assess the loot gathered from the dormitory.
+	* Father Esser while searching for a morsel in his pack, discovers the hungry scroll has somehow made its way into the main compartment and eaten or absorbed a bar of soap
+* The group gathers themselves up and head back through the dining hall and into the farm complex to complete their exploration of the area
+* The party traverses the length of the first chamber and confirms that they have indeed visited the far end of it already
+	* While doing so, they find a smashed goblin corpse and a slithering, multi-foot track
+	* The party reaches the north end and ascends to the site of the crushroom attack
+* From here, they enter the unexplored hall to the north
+	* The party finds mushrooms fitting the description of the fabled and long thought extinct, Plump Helmets
+	* They try some, and roast one.
+	* The non-dwarves find them palatable but the dwarves appear to be delighted and begin gathering them furiously, convinced they have rediscovered the Plump Helmet
+	* Once they've gathered all they can carry, they move on
+* The group attempts to travel south through the fungal forest cavern, but end up in the southwest corner.
+* Following the wall to the east, they make their way out of the fungal growth and into another farm hall
+	* This one is filled with pointy purple mushrooms and illuminated by dimly glowing purple stones in the ceiling
+	* Yui prys a glowing stone from ceiling and pockets it
+* Father Esser has the idea to cast sunlight on the chamber to illuminate the entire length of it at once
+	* Immediately upon doing so, everyone sees a large hunched humanoid monster with horns and large claws at the far end of the chamber.
+	* It was walking right to left, about to exit the chamber through a passageway leading north but as the light came on, it paused and looked toward the party
+	* After a moment of tension, it simply turned back to where it was heading and walked out of sight.
+* The party collects a few pointy purple mushrooms.
+	* Zundred was about to eat one, when in a moment of wisdom, he asked Esser to attempt to determine if they were toxic
+	* This seems to have proved a good idea, as Essers spell did indeed confirm their toxicity
+	* They collect a few and move on to the final unexplored chamber
+* This room is filled with lots of tiny little mushrooms
+	* Zundred finds the notebook of a mushroom breeder long past, detailing his work in breeding mushrooms with extreme tensile strength
+		* He noted their curious tendency to occasionally twitch like muscle fibers
+* The party returns to camp without incident
+* The party decides to spend the rest of the day at camp
+* Zundred attempts to use his chemistry knowledge to brew plump helmet wine but unfortunately doesn't have any specifics to go on
+	* He dumps mushrooms into water in a jar and prays for the best
+* Old man lew misidentifies the poison mushroom (Failed Connoisseur roll to identify), and is confident that it's safe to eat after cooking
+	* Feeling bold, he disregards Essers warning of the toxicity (fails IQ roll to proceed with caution.)
+	* Lew sautes the mushroom and consumes some, noting its bitter taste and doesn't finish it (fails the HT roll to resist poison)
+	* A few hours later not long before everyone settles in for bed, Lew collapses from exhaustion
+	* Everyone seems to quickly realize it must be due to the mushrooms he ate
+	* Esser uses a potion of minor healing on him
+	* Tymmy cooks up an "antidote" using more of the poison mushrooms, everyone fails to realize how dangerous it is
+	* Tymmy administers it to Lew, he is now double poisoned
+	* Lew remains unconcious but remarkably his condition appears to improve?
+	* Esser casts healing slumber, though it appears to have limited visible effect
+* Lews condition deteriorates through the night
+	* Esser elects to stay awake with Lew to keep an eye on him while the rest of the party sleeps
+	* A couple hours later with him not apparently improving, Esser magically lends energy to Lew to keep him going
+	* Lew awakens, and appears coherent but after only 45 minutes loses consciousness
+	* Esser is able to repeat this an hour later, but he is clearly wasting away and struggles to remain concious for more than 10 minutes
+	* Late in the night, Esser is able to awaken him once more
+		* Lew seems accepting that he made a fatal mistake, and admits that most mushroom experts do eventually go out this way.
+		* Nevertheless, he is immensely happy to have been able to see and in some way bring about the rediscovery of the Plump Helmet
+		* Esser prays with him and it seems to bring him comfort as he once again slips away
+	* By morning, his breathing has become labored, his pulse weakened, and he hasn't awakened in several hours
+* The vanguard minus Father Esser elect to go and attempt to deal with the Flame Lord once and for all
+	* They equip themselves with two grenade bottles of liquid ice and climb the stairs
+	* The group is able to lure the creature into a position where Yui can telekinetically slam the bottles into the Flame Lord from behind
+	* It emits the first vocal sound they've heard from it, a screeching howl of pain as it melts into a gooey warm residue on the floor, extinguished
+* The party returns to camp and arrives just as Old Man Lew is on deaths door.
+	* He lingers another hour and then sadly, dies.
+* The group greives and decides a fitting burial for him would be in the Plump Helmet farm
+	* They prepare for an hour and then carry the body to the burial site
+	* A grave is dug and the party members all say a few words before uttering goodbyes and burying the body.
+	* They return to camp in somber silence
 
 ### Session 7
 **2025-04-09**
