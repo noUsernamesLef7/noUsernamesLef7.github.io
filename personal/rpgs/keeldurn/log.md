@@ -1,12 +1,69 @@
 ---
 layout: default
-date: 2025-05-06
+date: 2025-05-20
 author: Jason Brown
 title: Keeldurn Adventure Log
 
 ---
 
 ## The Rebooted Adventure
+
+### Session 9
+**2025-05-07**
+* Yui, Tymmy, and Zundred head to the library while the others organize at camp and Esser takes a short nap
+* They spend an hour perusing books and searching for secrets
+* The hirelings discuss the events of the last few days and the alarming rate at which party members are perishing
+	* They raise the question with the guards: When do we say we have enough and return to the surface?
+	* Father Esser gives a rousing speech, attempting to motivate them and inspire their confidence. It seems well received.
+* Zundred tries to teach Billy some dwarvish. He begins to grasp dwarvish then spends a bit of time sparring with Yui
+* It is discovered that the remaining rations from the current ration chest are gone. The other chests appear to still be full however.
+	* Esser asks Henry to act as quartermaster for the supplies
+	* Realizing Henry has no idea what he's asking, Emmett is asked instead and agrees
+* Tymmy sets up a new lair in the access tunnel of a nearby cistern
+* Esser, Yui, Zundred, and Tymmy bring Chrissy, Billy, and Ovouster to check out the gatehouse
+* The group enters the highway tunnel and heads towards the ancient elevator
+* They reach it without incident and consider descending, but decide to scout the opposite direction first and stock up before attempting the descent.
+* As the party turns back, they hear a sound from the direction they came
+	* The group freezes and hides their light, anticipating an attack that never comes
+	* After a couple of minutes pass, Yui takes a torch and flies down the tunnel to investigate
+* Yui travels a significant distance down the tunnel from the party
+	* A small humanoid figure comes into view just as it is ducking into a small hole in the side of the tunnel
+	* Yui watches the hole while the rest of the party rushes to catch up
+* After pondering sending Tymmy into the hole to drag out whatever went in, the party elects to set a trap and leave
+	* Zundred sets an explosive trap
+* The party continues on, reaching and passing by the gate to the town of Gundarth.
+* Trekking the other way down the highway, they presently spot a beam of light emanating from ahead and Tymmy scouts ahead
+	* The light is coming from an arrow slit protecting the entrance to a gate
+	* Tymmy hears muffled conversation coming from inside the gate
+	* The party approaches, not entirely quietly
+* The party makes contact with someone on the other side of the gate, identifying themselves as Zeld the guard
+	* The party surmises the occupants are goblins and this proves true
+	* The goblin guards send someone to get a higher up
+	* He introduces himself as Grimble Snotfang, the runner of Gobton
+	* He informs the party of the plague, hoping they might be able to help
+	* Grimble comes out of the gate and allows Esser to examine him
+	* Grimble is hopeful that Esser might be able to heal Boss One Tooth
+	* The party says they can will attempt it in exchange for treasures
+	* They send the hirelings away to return to camp
+* Grimble leads the party through the gate and into Gobton.
+	* Entering the threshold, Esser immediately recognizes the symbols of the god Rovagug
+	* He feels the influence of his own goddess, Sarenrae diminish in this space
+	* The goblins claim to worship a god called Rug
+	* The party takes a moment to discuss if it is even safe to enter
+	* They hesitantly proceed
+* Grimble guides the group through the crowded paths of a temple courtyard in which a goblin shantytown has been constructed.
+	* Numerous residents are seen curiously spying on the group as they wend their way through
+	* They reach a shack on the far side of the "town" that Grimble states belongs to Boss One Tooth
+* Entering, they find a crude interior with a sickly looking goblin laying in a pile of blankets and bodily waste on the floor
+	* Grimble informs the group that the Boss is sick and weak and has lost his hearing and sight
+	* Father Esser attempts restoring his hearing
+	* The first attempt doesn't succeed. Tension in the room rises.
+	* The second attempt appears to succeed
+* It is at this moment an unfortunate miscommunication occurs
+	* After the failure of the first healing, Tymmy stealthily drew his crossbow and covered Grimble who was fixated on the healing
+	* After the second casting, Yui attempted to nonverbally communicate to Tymmy via a nod
+	* This nod was misinterpreted (perhaps intentionally in a moment of bloodlust?) as a signal to attack
+* Tymmy fired a crossbow bolt into the back of Grimbles head, killing him instantly
 
 ### Session 8
 **2025-04-25**
