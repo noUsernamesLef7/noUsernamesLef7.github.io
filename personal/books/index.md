@@ -1,12 +1,28 @@
 ---
 layout: default
-date: 2024-08-28
+date: 2025-12-01
 author: Jason Brown
 title: Books
 ---
 A few groupings of my favorite books on specific topics or genres, as well as a list of all the books I've read the last few years.
 
 [World War III Stories](./ww3)
+
+## 2025
+* *The Bread Bakers Apprentice* by Peter Reinhart
+    * Some great formulas and the detailed description of the bakers method and chemical processes at the beginning is well worth the read.
+* *Mastering Regular Expressions* by Jeffrey Friedl
+    * Very detailed. Honestly, it probably won't stick very well. I just don't use regex often enough for it to really stick super well. I can write simple ones but for anything non-trivial, I'll probably still need to look it up again.
+* *Atomic Habits* by James Clear
+    * The cue, craving, response, reward framework is a useful model. For me, the most game changing suggestion in the book was habit stacking. Tacking a new habit onto an existing one has been really effective for me.
+* *The Hackers Diet* by John Walker
+    * The weighted moving average with exponential smoothing for tracking trends is a gamechanger for me. I don't know why every weight tracking app in existence isn't using this instead of the naive best fit lines.
+* *The Debian Administrators Handbook* by Raphael Hertzog
+    * Great overview of Debian the project and Debian the OS. I wish they'd make an updated edition, but 80%+ is still relevant in Trixie.
+* *Pro Git* by Scott Chacon
+    * I already knew far more of git than I realized. Nevertheless, I was still able to pick up some helpful tips, particularly in Chapter 7, Git Tools and Chapter 8, Customizing Git.
+* *Calvin & Hobbes: Attack of the Deranged Mutant Killer Monster Snow Goons* by Bill Watterson
+    * For some reason around the holidays every year I get an itch to curl up in front of a fire and revisit Calvin and Hobbes. Now if only I had a warm fuzzy tiger to lie against...
 
 ## 2024
 1. *Home Buying Kit for Dummies, 7th Edition* by Eric Tyson and Ray Brown
