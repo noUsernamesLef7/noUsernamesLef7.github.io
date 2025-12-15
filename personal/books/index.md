@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2025-12-01
+date: 2025-12-15
 author: Jason Brown
 title: Books
 ---
@@ -23,6 +23,8 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
     * I already knew far more of git than I realized. Nevertheless, I was still able to pick up some helpful tips, particularly in Chapter 7, Git Tools and Chapter 8, Customizing Git.
 * *Calvin & Hobbes: Attack of the Deranged Mutant Killer Monster Snow Goons* by Bill Watterson
     * For some reason around the holidays every year I get an itch to curl up in front of a fire and revisit Calvin and Hobbes. Now if only I had a warm fuzzy tiger to lie against...
+* *Little Caesar* by W. R. Burnett
+    * The book that popularized the American gangster story. The writing is unemotional and straightforward. It's short and bleak, but the characters are interesting and the rise and fall story is fun, if unsurprising.
 
 ## 2024
 1. *Home Buying Kit for Dummies, 7th Edition* by Eric Tyson and Ray Brown
