@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2025-12-15
+date: 2025-12-17
 author: Jason Brown
 title: Books
 ---
@@ -9,22 +9,32 @@ A few groupings of my favorite books on specific topics or genres, as well as a 
 [World War III Stories](./ww3)
 
 ## 2025
-* *The Bread Bakers Apprentice* by Peter Reinhart
+1. *The Bread Bakers Apprentice* by Peter Reinhart
     * Some great formulas and the detailed description of the bakers method and chemical processes at the beginning is well worth the read.
-* *Mastering Regular Expressions* by Jeffrey Friedl
+2. *Dune* by Frank Herbert
+    * Dune is of course a masterpiece. What more can I say about it?
+3. *Mastering Regular Expressions* by Jeffrey Friedl
     * Very detailed. Honestly, it probably won't stick very well. I just don't use regex often enough for it to really stick super well. I can write simple ones but for anything non-trivial, I'll probably still need to look it up again.
-* *Atomic Habits* by James Clear
+4. *Atomic Habits* by James Clear
     * The cue, craving, response, reward framework is a useful model. For me, the most game changing suggestion in the book was habit stacking. Tacking a new habit onto an existing one has been really effective for me.
-* *The Hackers Diet* by John Walker
+5. *The Life-Changing Magic of Tidying Up* by Marie Kondo
+    * I felt inspired. Without going to great extremes, I managed to simplify my wardrobe and organize my closet space. My desk space has also benefited.
+6. *Organizing Solutions for People with ADHD* by Susan Pinsky
+    * I was looking for organizational ideas that require extremely low activation energy and saw this book recommended on Reddit. There are some great practical ideas in here for everyone, not just people with ADHD.
+7. *The Hackers Diet* by John Walker
     * The weighted moving average with exponential smoothing for tracking trends is a gamechanger for me. I don't know why every weight tracking app in existence isn't using this instead of the naive best fit lines.
-* *The Debian Administrators Handbook* by Raphael Hertzog
+8. *The Debian Administrators Handbook* by Raphael Hertzog
     * Great overview of Debian the project and Debian the OS. I wish they'd make an updated edition, but 80%+ is still relevant in Trixie.
-* *Pro Git* by Scott Chacon
+9. *Pro Git* by Scott Chacon
     * I already knew far more of git than I realized. Nevertheless, I was still able to pick up some helpful tips, particularly in Chapter 7, Git Tools and Chapter 8, Customizing Git.
-* *Calvin & Hobbes: Attack of the Deranged Mutant Killer Monster Snow Goons* by Bill Watterson
+10. *Calvin & Hobbes: Attack of the Deranged Mutant Killer Monster Snow Goons* by Bill Watterson
     * For some reason around the holidays every year I get an itch to curl up in front of a fire and revisit Calvin and Hobbes. Now if only I had a warm fuzzy tiger to lie against...
-* *Little Caesar* by W. R. Burnett
+11. *Little Caesar* by W. R. Burnett
     * The book that popularized the American gangster story. The writing is unemotional and straightforward. It's short and bleak, but the characters are interesting and the rise and fall story is fun, if unsurprising.
+12. *How to Talk so Little Kids Will Listen* by Joanna Faber & Julie King
+    * I think I'm already seeing an improvment in communication with the the 3 year old. Some of the emotionally difficult situations are easier to recover from and prevent him from spiralling using these techniques.
+13. *Game Over: Oups!* by Midam
+    * This one contains my personal favorite gag, the cheese grater hill.
 
 ## 2024
 1. *Home Buying Kit for Dummies, 7th Edition* by Eric Tyson and Ray Brown
